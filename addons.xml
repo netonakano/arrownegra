@@ -56,7 +56,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.blackarrow.esportes.Matrix" name="[COLOR yellow]blackarrow[/COLOR][COLOR lime]esportes[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow.esportes" name="[COLOR yellow]blackarrow[/COLOR][COLOR lime]esportes[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -85,7 +85,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
--<addon provider-name="Flechanegra" version="1.0.2+matrix.1" name="[COLOR red]Blackarrow[/COLOR] [COLORblack]Torrent[/COLOR]" id="plugin.video.blackarrow.torrent.Matrix">
+-<addon provider-name="Flechanegra" version="1.0.3+matrix.1" name="[COLOR red]Blackarrow[/COLOR] [COLORblack]Torrent[/COLOR]" id="plugin.video.blackarrow.torrent">
 
 
 -<requires>
@@ -145,7 +145,7 @@ v1.0.0.matrix.1
 
 </addon>
 
-<addon id="plugin.video.blackarrow18.matrix" name="[COLOR red]black[/COLOR] [COLOR yellow]arrow18[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra"> 
+<addon id="plugin.video.blackarrow18" name="[COLOR red]black[/COLOR] [COLOR yellow]arrow18[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -177,7 +177,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow1click.Matrix" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Cick[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Cick[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -311,7 +311,7 @@ v1.0.0.+matrix
 </addon>
 
 
-<addon id="plugin.video.flashbrasil.Matrix" name="[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR]" version="1.0.4+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -343,7 +343,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.flechanegra.Matrix" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.0.4+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -392,7 +392,7 @@ v1.0.0.matrix.1
 	</extension>
 </addon>
 
-<addon id="plugin.video.IncoGnit.Matrix" name="[COLOR lime]IncoGnit[/COLOR]" version="1.0.0+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -421,7 +421,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.infinity.Matrix" name="[COLORorange]Infinity[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.infinity" name="[COLORorange]Infinity[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
