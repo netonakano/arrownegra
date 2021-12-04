@@ -18,7 +18,7 @@
     point="kodi.pvrclient"
     library_android="libpvr.iptvsimple.so"/>
   <extension point="xbmc.addon.metadata">
-    <platform>android-armv7</platform>
+    <platform>android-aarch64</platform>
     <license>GPL-2.0-or-later</license>
     <source>https://github.com/kodi-pvr/pvr.hts</source>
     <forum>https://forum.kodi.tv/forumdisplay.php?fid=215</forum>
