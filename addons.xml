@@ -1202,7 +1202,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
 </addon>
 
 <addon
-  id="pvr.arrownegrasimpledroid"
+  id="pvr.arrownegradroidsimple"
   version="19.0.3"
   name="PVR ARROWNEGRA SIMPLE"
   provider-name="nightik and Ross Nicholson">
