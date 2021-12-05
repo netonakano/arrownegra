@@ -16,14 +16,6 @@
     library_android="libinputstream.rtmp.so" />
   <extension point="xbmc.addon.metadata">
     <platform>android-aarch64</platform>
-<extension
-    point="kodi.inputstream"
-    name="rtmp"
-    protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps"
-    listitemprops="SWFPlayer|swfurl|PageURL|PlayPath|TcUrl|IsLive|swfvfy"
-    library_windows="inputstream.rtmp.dll" />
-  <extension point="xbmc.addon.metadata">
-    <platform>windows-x86_64</platform>
     <license>GPL-2.0-or-later</license>
     <source>https://github.com/xbmc/inputstream.rtmp</source>
     <assets>
