@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.infinity" name="[COLORorange]Infinity[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra"> 
+<addon id="plugin.video.infinity" name="[COLORorange]Infinity[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -20,10 +20,7 @@
 	<assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
-	   <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-	   </assets>
+    </assets>
 	<news>
 v1.0.0.matrix.1
 - Inauguração Flechanegra em Python 3
