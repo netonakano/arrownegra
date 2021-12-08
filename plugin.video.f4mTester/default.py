@@ -128,18 +128,18 @@ class iniciavideo():
 
 def open_url(url,referer=False,post=False,timeout=12):
     req = Request(url)
-    # req.add_header('sec-ch-ua', '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"')
-    # req.add_header('sec-ch-ua-mobile', '?0')
-    # req.add_header('sec-ch-ua-platform', '"Windows"')
-    # req.add_header('Upgrade-Insecure-Requests', '1')    
-    # req.add_header('User-Agent', UA)
-    # req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9')
-    # req.add_header('Sec-Fetch-Site', 'none')
-    # req.add_header('Sec-Fetch-Mode', 'navigate')
-    # req.add_header('Sec-Fetch-User', '?1')
-    # req.add_header('Sec-Fetch-Dest', 'document')
+    req.add_header('sec-ch-ua', '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"')
+    req.add_header('sec-ch-ua-mobile', '?0')
+    req.add_header('sec-ch-ua-platform', '"Windows"')
+    req.add_header('Upgrade-Insecure-Requests', '1')    
+    req.add_header('User-Agent', UA)
+    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9')
+    req.add_header('Sec-Fetch-Site', 'none')
+    req.add_header('Sec-Fetch-Mode', 'navigate')
+    req.add_header('Sec-Fetch-User', '?1')
+    req.add_header('Sec-Fetch-Dest', 'document')
     # req.add_header('Accept-Encoding', 'gzip')
-    # req.add_header('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7')
+    req.add_header('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7')
     if referer:    
         req.add_header('Referer', referer)
     try:
@@ -165,18 +165,10 @@ def open_url(url,referer=False,post=False,timeout=12):
         code = 401
         encoding = 'none'
     if code == 200:
-        if encoding == 'gzip':
-            try:
-                buf = StringIO(response.read())
-                f = gzip.GzipFile(fileobj=buf)
-                content = f.read()
-            except:
-                content = ''
-        else:
-            try:
-                content = response.read()
-            except:
-                content = ''
+        try:
+            content = response.read()
+        except:
+            content = ''
     else:
         content = ''         
     try:
