@@ -741,7 +741,7 @@ v1.14.1 (2021-02-25)
 
 <addon
   id="pvr.arrownegrasimple"
-  version="19.0.3"
+  version="19.0.2"
   name="PVR ARROWNEGRA SIMPLE"
   provider-name="nightik and Ross Nicholson">
   <requires>
@@ -1285,7 +1285,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
 
 <addon
   id="pvr.arrownegraarchsimple"
-  version="19.0.3"
+  version="19.0.2"
   name="PVR ARROWNEGRA SIMPLE"
   provider-name="nightik and Ross Nicholson">
   <requires>
@@ -1829,7 +1829,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
 
 <addon
   id="pvr.arrownegraarmv7simple"
-  version="19.0.3"
+  version="19.0.2"
   name="PVR ARROWNEGRA SIMPLE"
   provider-name="nightik and Ross Nicholson">
   <requires>
