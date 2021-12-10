@@ -327,6 +327,42 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
+<addon id="plugin.video.cine_e_series" version="1.9.3" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR]" provider-name="ArrowNegra">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.cine_e_series.artwork" />
+        <import addon="script.cine_e_series.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.cine_e_seriesscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="cine_e_series.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Movies and TV Shows</summary>
+        <description lang="en_GB">Working On Kodi 19[CR]Credits to all devs past and present.Please do NOT post This Add-on on Youtube,Facebook,Blogs or anywhere on the internet or Websites, thank you.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
 <addon id="plugin.video.elementum" name="Elementum" version="0.1.83" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
@@ -2983,6 +3019,31 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
+<addon id="script.cine_e_series.artwork" version="1.9.3" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Artwork[/COLOR]" provider-name="ArrowNegra">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.19.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Cine_e_ Series Artwork</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.cine_e_series.metadata" version="1.9.3" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Metadata[/COLOR]" provider-name="ArrowNegra">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.19.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Metadata for the Cine_e_Series Addon</summary>
+        <description>Metadata for Cine_e_Series are maintained separately to make distribution of the the addon itself easier/faster.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+
 <addon id="script.logviewer" name="Log Viewer for Kodi" provider-name="i96751414" version="2.1.5+matrix.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -3013,6 +3074,34 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
         </assets>
     </extension>
 </addon>
+
+<addon id="script.module.cine_e_seriesscrapers" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Module[/COLOR]" version="1.9.3" provider-name="ArrowNegra">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Cine_e_Series Scrapers Module</summary>
+            <description>Working On Kodi 19</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="script.module.requests" name="requests" version="2.25.1+matrix.1" provider-name="Python Software Foundation">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
