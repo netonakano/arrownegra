@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -33,7 +33,7 @@ try:
 except ImportError:
     from pysqlite2 import dbapi2 as db, OperationalError
 
-from sealteam6scrapers.modules import control
+from cine_e_seriesscrapers.modules import control
 
 if six.PY2:
     str = unicode
@@ -41,7 +41,7 @@ elif six.PY3:
     str = unicode = basestring = str
 
 cache_table = 'cache'
-data_path = xbmc.translatePath(control.addon('plugin.video.sealteam6').getAddonInfo('profile'))
+data_path = xbmc.translatePath(control.addon('plugin.video.cine_e_series').getAddonInfo('profile'))
 
 def get(function_, duration, *args, **table):
 

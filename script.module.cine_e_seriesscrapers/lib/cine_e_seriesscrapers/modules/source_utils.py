@@ -2,7 +2,7 @@
 
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,10 +27,10 @@ import re
 import six
 from six.moves import urllib_parse
 
-from sealteam6scrapers.modules import client
-from sealteam6scrapers.modules import directstream
-from sealteam6scrapers.modules import trakt
-from sealteam6scrapers.modules import pyaes
+from cine_e_seriesscrapers.modules import client
+from cine_e_seriesscrapers.modules import directstream
+from cine_e_seriesscrapers.modules import trakt
+from cine_e_seriesscrapers.modules import pyaes
 
 RES_4K = [' 4k ', ' hd4k ', ' 4khd ', ' uhd ', ' ultrahd ', ' ultra hd ', ' 2160 ', ' 2160p ', ' hd2160 ', ' 2160hd ']
 RES_1080 = [' 1080 ', ' 1080p ', ' 1080i ', ' hd1080 ', ' 1080hd ', ' m1080p ', ' fullhd ', ' full hd ']

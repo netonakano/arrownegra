@@ -377,7 +377,7 @@ class navigator:
         self.endDirectory()
 
     def tools(self):
-        self.addDirectoryItem('[COLOR aqua][B]Sealteam6[/B] : Changelog[/COLOR]', 'changelog', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
+        self.addDirectoryItem('[COLOR aqua][B]cine_e_series[/B] : Changelog[/COLOR]', 'changelog', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
         self.addDirectoryItem(32043, 'openSettings&query=0.0', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
         self.addDirectoryItem(32556, 'libraryNavigator', 'tools.png', 'DefaultAddonProgram.png')
         self.addDirectoryItem(32049, 'viewsNavigator', 'tools.png', 'DefaultAddonProgram.png')
@@ -387,7 +387,7 @@ class navigator:
         self.addDirectoryItem(32052, 'clearCache', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
         self.addDirectoryItem(32611, 'clearAllCache', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
         self.addDirectoryItem(32108, 'cleanSettings', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
-        self.addDirectoryItem(32079, 'sealteam6scrapersettings', 'icon.png', 'DefaultAddonProgram.png', isFolder=False)
+        self.addDirectoryItem(32079, 'cine_e_seriesscrapersettings', 'icon.png', 'DefaultAddonProgram.png', isFolder=False)
         if not control.condVisibility('System.HasAddon(script.module.openscrapers)'):
             self.addDirectoryItem('[COLOR aqua][B]Openscrapers[/B] : Install[/COLOR]', 'installOpenscrapers', 'openscr.png', 'DefaultAddonProgram.png', isFolder=False)
         else:

@@ -1,6 +1,6 @@
-# Addon Name: sealteam6
-# Addon id: plugin.video.sealteam6
-# Addon Provider: sealteam6
+# Addon Name: cine_e_series
+# Addon id: plugin.video.cine_e_series
+# Addon Provider: cine_e_series
 # Translators:
 # Translators:
 # Translators:
@@ -17,7 +17,7 @@
 # Translators:
 msgid "[COLOR aqua]"
 msgstr "[COLOR aqua]"
-"Project-Id-Version: sealteam6\n"
+"Project-Id-Version: cine_e_series\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2019-10-11 02:03+0000\n"
 "Last-Translator: lambda\n"
@@ -198,7 +198,7 @@ msgid "[COLOR aqua]No Trakt or IMDb account found.[/COLOR]"
 msgstr ""
 
 msgctxt "#32043"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Settings[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Settings[/COLOR]"
 msgstr ""
 
 msgctxt "#32044"
@@ -218,23 +218,23 @@ msgid "[COLOR aqua][B]SETTINGS[/B] : Providers[/COLOR]"
 msgstr ""
 
 msgctxt "#32048"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Downloads[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Downloads[/COLOR]"
 msgstr ""
 
 msgctxt "#32049"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Viewtypes[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Viewtypes[/COLOR]"
 msgstr ""
 
 msgctxt "#32050"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear providers...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear providers...[/COLOR]"
 msgstr ""
 
 msgctxt "#32051"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear metadata...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear metadata...[/COLOR]"
 msgstr ""
 
 msgctxt "#32052"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear cache...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear cache...[/COLOR]"
 msgstr ""
 
 msgctxt "#32053"
@@ -290,11 +290,11 @@ msgid "[COLOR aqua][I]Queue item[/I][/COLOR]"
 msgstr ""
 
 msgctxt "#32066"
-msgid "[COLOR aqua][I]Watched in Sealteam6[/I][/COLOR]"
+msgid "[COLOR aqua][I]Watched in cine_e_series[/I][/COLOR]"
 msgstr ""
 
 msgctxt "#32067"
-msgid "[COLOR aqua][I]Unwatched in Sealteam6[/I][/COLOR]"
+msgid "[COLOR aqua][I]Unwatched in cine_e_series[/I][/COLOR]"
 msgstr ""
 
 msgctxt "#32068"
@@ -342,7 +342,7 @@ msgid "[COLOR aqua][B]LambdaScrapers[/B] : Settings[/COLOR]"
 msgstr ""
 
 msgctxt "#32079"
-msgid "[COLOR aqua][B]Sealteam6Scrapers[/B] : Settings[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_seriesScrapers[/B] : Settings[/COLOR]"
 msgstr ""
 
 msgctxt "#32080"
@@ -366,7 +366,7 @@ msgid "[COLOR aqua]Provider Source:[/COLOR]"
 msgstr ""
 
 msgctxt "#32085"
-msgid "[COLOR aqua]Open Sealteam6 Scrapers Settings[/COLOR]"
+msgid "[COLOR aqua]Open cine_e_series Scrapers Settings[/COLOR]"
 msgstr ""
 
 msgctxt "#32086"
@@ -394,7 +394,7 @@ msgid "[COLOR aqua]Sync with Trakt watched status on add-on startup[/COLOR]"
 msgstr ""
 
 msgctxt "#32092"
-msgid "[COLOR aqua]Sealteam6 <=> Trakt Synced[/COLOR]"
+msgid "[COLOR aqua]cine_e_series <=> Trakt Synced[/COLOR]"
 msgstr ""
 
 msgctxt "#32093"
@@ -458,7 +458,7 @@ msgid "[COLOR aqua]Orion label color:[/COLOR]"
 msgstr ""
 
 msgctxt "#32108"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clean Settings file[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clean Settings file[/COLOR]"
 msgstr ""
 
 msgctxt "#32109"
@@ -490,7 +490,7 @@ msgid "[COLOR aqua]WiP - Supported services: Real-Debrid, AllDebrid, Premiumize[
 msgstr ""
 
 msgctxt "#32116"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear debrid checks...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear debrid checks...[/COLOR]"
 msgstr ""
 
 msgctxt "#32117"
@@ -890,7 +890,7 @@ msgid "[COLOR aqua]No stream available[/COLOR]"
 msgstr ""
 
 msgctxt "#32402"
-msgid "[COLOR aqua]Playback outside Sealteam6 is not allowed[/COLOR]"
+msgid "[COLOR aqua]Playback outside cine_e_series is not allowed[/COLOR]"
 msgstr ""
 
 msgctxt "#32403"
@@ -1022,7 +1022,7 @@ msgid "[COLOR aqua]Library[/COLOR]"
 msgstr ""
 
 msgctxt "#32542"
-msgid "[COLOR aqua]Sealteam6 folders will be imported to library if they are added to media sources.[/COLOR]"
+msgid "[COLOR aqua]cine_e_series folders will be imported to library if they are added to media sources.[/COLOR]"
 msgstr ""
 
 msgctxt "#32543"
@@ -1078,7 +1078,7 @@ msgid "[COLOR aqua]Are you sure?[/COLOR]"
 msgstr ""
 
 msgctxt "#32556"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Library[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Library[/COLOR]"
 msgstr ""
 
 msgctxt "#32557"
@@ -1086,15 +1086,15 @@ msgid "[COLOR aqua][B]LIBRARY[/B] : Settings[/COLOR]"
 msgstr ""
 
 msgctxt "#32558"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Update library...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Update library...[/COLOR]"
 msgstr ""
 
 msgctxt "#32559"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Movie folder...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Movie folder...[/COLOR]"
 msgstr ""
 
 msgctxt "#32560"
-msgid "[COLOR aqua][B]Sealteam6[/B] : TV folder...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : TV folder...[/COLOR]"
 msgstr ""
 
 msgctxt "#32561"
@@ -1202,7 +1202,7 @@ msgid "[COLOR aqua]New search...[/COLOR]"
 msgstr ""
 
 msgctxt "#32604"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear search history...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear search history...[/COLOR]"
 msgstr ""
 
 msgctxt "#32605"
@@ -1230,7 +1230,7 @@ msgid "[COLOR aqua]Client Secret[/COLOR]"
 msgstr ""
 
 msgctxt "#32611"
-msgid "[COLOR aqua][B]Sealteam6[/B] : Clear all cache...[/COLOR]"
+msgid "[COLOR aqua][B]cine_e_series[/B] : Clear all cache...[/COLOR]"
 msgstr ""
 
 msgctxt "#32612"

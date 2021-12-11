@@ -1238,7 +1238,7 @@ class sources:
         else:
             scraperSetting = control.setting('module.provider.alt')
 
-        oas_module_name = '[COLOR yellow]cine_e_series is on a Secret Mission [/COLOR]' \
+        oas_module_name = '[COLOR yellow]cine_e_series will get your link, if exists [/COLOR]' \
                           if control.addon('script.module.cine_e_seriesscrapers').getSetting('package.folder') != 'cine_e_seriesScrapers' else 'cine_e_seriesScrapers:'
 
         import cine_e_seriesscrapers

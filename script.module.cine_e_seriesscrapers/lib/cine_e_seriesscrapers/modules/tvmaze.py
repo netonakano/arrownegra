@@ -26,8 +26,8 @@ from six.moves import urllib_parse
 
 import requests
 
-from sealteam6scrapers.modules import cache
-from sealteam6scrapers.modules import client, control
+from cine_e_seriesscrapers.modules import cache
+from cine_e_seriesscrapers.modules import client, control
 
 
 class tvMaze:

@@ -2,7 +2,7 @@
 
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,12 +29,12 @@ import six
 from six.moves import urllib_parse
 import simplejson as json
 
-from sealteam6scrapers.modules import cache
-from sealteam6scrapers.modules import cleandate
-from sealteam6scrapers.modules import client
-from sealteam6scrapers.modules import control
-from sealteam6scrapers.modules import log_utils
-from sealteam6scrapers.modules import utils
+from cine_e_seriesscrapers.modules import cache
+from cine_e_seriesscrapers.modules import cleandate
+from cine_e_seriesscrapers.modules import client
+from cine_e_seriesscrapers.modules import control
+from cine_e_seriesscrapers.modules import log_utils
+from cine_e_seriesscrapers.modules import utils
 
 if six.PY2:
     str = unicode
@@ -42,8 +42,8 @@ elif six.PY3:
     str = unicode = basestring = str
 
 BASE_URL = 'https://api.trakt.tv'
-V2_API_KEY = control.addon('plugin.video.sealteam6').getSetting('trakt.client_id')
-CLIENT_SECRET = control.addon('plugin.video.sealteam6').getSetting('trakt.client_secret')
+V2_API_KEY = control.addon('plugin.video.cine_e_series').getSetting('trakt.client_id')
+CLIENT_SECRET = control.addon('plugin.video.cine_e_series').getSetting('trakt.client_secret')
 REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
 if V2_API_KEY == "" or CLIENT_SECRET == "":
@@ -57,7 +57,7 @@ def __getTrakt(url, post=None):
         headers = {'Content-Type': 'application/json', 'trakt-api-key': V2_API_KEY, 'trakt-api-version': 2}
 
         if getTraktCredentialsInfo():
-            headers.update({'Authorization': 'Bearer %s' % control.addon('plugin.video.sealteam6').getSetting('trakt.token')})
+            headers.update({'Authorization': 'Bearer %s' % control.addon('plugin.video.cine_e_series').getSetting('trakt.token')})
 
         result = client.request(url, post=post, headers=headers, output='extended', error=True)
 
@@ -80,15 +80,15 @@ def __getTrakt(url, post=None):
             return result, resp_header
 
         oauth = urllib_parse.urljoin(BASE_URL, '/oauth/token')
-        opost = {'client_id': V2_API_KEY, 'client_secret': CLIENT_SECRET, 'redirect_uri': REDIRECT_URI, 'grant_type': 'refresh_token', 'refresh_token': control.addon('plugin.video.sealteam6').getSetting('trakt.refresh')}
+        opost = {'client_id': V2_API_KEY, 'client_secret': CLIENT_SECRET, 'redirect_uri': REDIRECT_URI, 'grant_type': 'refresh_token', 'refresh_token': control.addon('plugin.video.cine_e_series').getSetting('trakt.refresh')}
 
         result = client.request(oauth, post=json.dumps(opost), headers=headers)
         result = utils.json_loads_as_str(result)
 
         token, refresh = result['access_token'], result['refresh_token']
         print('Info - ' + str(token))
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.token', value=token)
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.refresh', value=refresh)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.token', value=token)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.refresh', value=refresh)
 
         headers['Authorization'] = 'Bearer %s' % token
 
@@ -112,10 +112,10 @@ def authTrakt():
     try:
         if getTraktCredentialsInfo() == True:
             if control.yesnoDialog(control.lang(32511) + '[CR]' + control.lang(32512), heading='Trakt'):
-                control.addon('plugin.video.sealteam6').setSetting(id='trakt.user', value='')
-                control.addon('plugin.video.sealteam6').setSetting(id='trakt.authed', value='')
-                control.addon('plugin.video.sealteam6').setSetting(id='trakt.token', value='')
-                control.addon('plugin.video.sealteam6').setSetting(id='trakt.refresh', value='')
+                control.addon('plugin.video.cine_e_series').setSetting(id='trakt.user', value='')
+                control.addon('plugin.video.cine_e_series').setSetting(id='trakt.authed', value='')
+                control.addon('plugin.video.cine_e_series').setSetting(id='trakt.token', value='')
+                control.addon('plugin.video.cine_e_series').setSetting(id='trakt.refresh', value='')
             raise Exception()
 
         result = getTraktAsJson('/oauth/device/code', {'client_id': V2_API_KEY})
@@ -155,25 +155,25 @@ def authTrakt():
         authed = '' if user == '' else str('yes')
 
         print('info - ' + token)
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.user', value=user)
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.authed', value=authed)
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.token', value=token)
-        control.addon('plugin.video.sealteam6').setSetting(id='trakt.refresh', value=refresh)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.user', value=user)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.authed', value=authed)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.token', value=token)
+        control.addon('plugin.video.cine_e_series').setSetting(id='trakt.refresh', value=refresh)
         raise Exception()
     except:
         control.openSettings('2.1')
 
 
 def getTraktCredentialsInfo():
-    user = control.addon('plugin.video.sealteam6').getSetting('trakt.user').strip()
-    token = control.addon('plugin.video.sealteam6').getSetting('trakt.token')
-    refresh = control.addon('plugin.video.sealteam6').getSetting('trakt.refresh')
+    user = control.addon('plugin.video.cine_e_series').getSetting('trakt.user').strip()
+    token = control.addon('plugin.video.cine_e_series').getSetting('trakt.token')
+    refresh = control.addon('plugin.video.cine_e_series').getSetting('trakt.refresh')
     if (user == '' or token == '' or refresh == ''): return False
     return True
 
 
 def getTraktIndicatorsInfo():
-    indicators = control.addon('plugin.video.sealteam6').getSetting('indicators') if getTraktCredentialsInfo() == False else control.addon('plugin.video.sealteam6').getSetting('indicators.alt')
+    indicators = control.addon('plugin.video.cine_e_series').getSetting('indicators') if getTraktCredentialsInfo() == False else control.addon('plugin.video.cine_e_series').getSetting('indicators.alt')
     indicators = True if indicators == '1' else False
     return indicators
 
@@ -317,12 +317,12 @@ def getWatchedActivity():
 
 
 def cachesyncMovies(timeout=0):
-    indicators = cache.get(syncMovies, timeout, control.addon('plugin.video.sealteam6').getSetting('trakt.user').strip())
+    indicators = cache.get(syncMovies, timeout, control.addon('plugin.video.cine_e_series').getSetting('trakt.user').strip())
     return indicators
 
 
 def timeoutsyncMovies():
-    timeout = cache.timeout(syncMovies, control.addon('plugin.video.sealteam6').getSetting('trakt.user').strip())
+    timeout = cache.timeout(syncMovies, control.addon('plugin.video.cine_e_series').getSetting('trakt.user').strip())
     return timeout
 
 
@@ -338,12 +338,12 @@ def syncMovies(user):
 
 
 def cachesyncTVShows(timeout=0):
-    indicators = cache.get(syncTVShows, timeout, control.addon('plugin.video.sealteam6').getSetting('trakt.user').strip())
+    indicators = cache.get(syncTVShows, timeout, control.addon('plugin.video.cine_e_series').getSetting('trakt.user').strip())
     return indicators
 
 
 def timeoutsyncTVShows():
-    timeout = cache.timeout(syncTVShows, control.addon('plugin.video.sealteam6').getSetting('trakt.user').strip())
+    timeout = cache.timeout(syncTVShows, control.addon('plugin.video.cine_e_series').getSetting('trakt.user').strip())
     return timeout
 
 

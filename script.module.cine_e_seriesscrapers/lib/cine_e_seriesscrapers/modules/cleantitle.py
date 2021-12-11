@@ -2,7 +2,7 @@
 
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ import re
 import unicodedata
 from six import ensure_str, ensure_text
 
-from sealteam6scrapers.modules import control
+from cine_e_seriesscrapers.modules import control
 
 def get(title):
     if title is None: return

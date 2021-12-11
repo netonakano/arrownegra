@@ -18,10 +18,10 @@
 #import urlparse, urllib
 from six.moves import urllib_parse
 
-from sealteam6scrapers.modules import cache
-from sealteam6scrapers.modules import client
-from sealteam6scrapers.modules import cleantitle
-from sealteam6scrapers.modules import utils
+from cine_e_seriesscrapers.modules import cache
+from cine_e_seriesscrapers.modules import client
+from cine_e_seriesscrapers.modules import cleantitle
+from cine_e_seriesscrapers.modules import utils
 
 
 def _getAniList(url):

@@ -2,7 +2,7 @@
 
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -47,7 +47,7 @@ integer = 1000
 
 addon = xbmcaddon.Addon
 
-addonObject = addon('script.module.sealteam6scrapers')
+addonObject = addon('script.module.cine_e_seriesscrapers')
 
 addonId = addonObject.getAddonInfo('id')
 
@@ -156,7 +156,7 @@ def sleep(time):
 
 
 def autoTraktSubscription(tvshowtitle, year, imdb, tvdb):
-    from sealteam6scrapers.modules import libtools
+    from cine_e_seriesscrapers.modules import libtools
     libtools.libtvshows().add(tvshowtitle, year, imdb, tvdb)
 
 
@@ -217,17 +217,17 @@ def get_plugin_url(queries):
 def artPath():
     theme = appearance()
     if theme in ['-', '']: return
-    elif condVisibility('System.HasAddon(script.sealteam6.artwork)'):
-        return os.path.join(xbmcaddon.Addon('script.sealteam6.artwork').getAddonInfo('path'), 'resources', 'media', theme)
+    elif condVisibility('System.HasAddon(script.cine_e_series.artwork)'):
+        return os.path.join(xbmcaddon.Addon('script.cine_e_series.artwork').getAddonInfo('path'), 'resources', 'media', theme)
 
 
 def appearance():
-    appearance = setting('appearance.1').lower() if condVisibility('System.HasAddon(script.sealteam6.artwork)') else setting('appearance.alt').lower()
+    appearance = setting('appearance.1').lower() if condVisibility('System.HasAddon(script.cine_e_series.artwork)') else setting('appearance.alt').lower()
     return appearance
 
 
 def artwork():
-    execute('RunPlugin(plugin://script.sealteam6.artwork)')
+    execute('RunPlugin(plugin://script.cine_e_series.artwork)')
 
 
 def infoDialog(message, heading=addonInfo('name'), icon='', time=3000, sound=False):
@@ -247,8 +247,8 @@ def selectDialog(list, heading=addonInfo('name')):
     return dialog.select(heading, list)
 
 def metaFile():
-    if condVisibility('System.HasAddon(script.sealteam6.metadata)'):
-        return os.path.join(xbmcaddon.Addon('script.sealteam6.metadata').getAddonInfo('path'), 'resources', 'data', 'meta.db')
+    if condVisibility('System.HasAddon(script.cine_e_series.metadata)'):
+        return os.path.join(xbmcaddon.Addon('script.cine_e_series.metadata').getAddonInfo('path'), 'resources', 'data', 'meta.db')
 
 
 def apiLanguage(ret_name=None):
@@ -291,7 +291,7 @@ def version():
 
 def cdnImport(uri, name):
     import imp
-    from sealteam6scrapers.modules import client
+    from cine_e_seriesscrapers.modules import client
 
     path = os.path.join(dataPath, 'py' + name)
     path = six_decode(path)

@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-from sealteam6scrapers.modules import log_utils
+from cine_e_seriesscrapers.modules import log_utils
 
 try:
     import resolveurl

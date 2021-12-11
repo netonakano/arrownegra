@@ -24,7 +24,7 @@ import re
 import sys
 import six
 
-from sealteam6scrapers.modules import jsunpack
+from cine_e_seriesscrapers.modules import jsunpack
 
 
 Juice = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="

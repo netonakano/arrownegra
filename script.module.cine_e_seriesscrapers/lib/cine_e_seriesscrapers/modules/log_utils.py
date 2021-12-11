@@ -26,7 +26,7 @@ import xbmc
 
 import six
 
-from sealteam6scrapers.modules import control
+from cine_e_seriesscrapers.modules import control
 
 LOGDEBUG = xbmc.LOGDEBUG
 LOGERROR = xbmc.LOGERROR
@@ -37,26 +37,26 @@ LOGNOTICE = xbmc.LOGNOTICE if int(control.getKodiVersion()) < 19 else xbmc.LOGIN
 LOGWARNING = xbmc.LOGWARNING
 
 name = control.addonInfo('name')
-DEBUGPREFIX = '[ sealteam6 DEBUG ]'
+DEBUGPREFIX = '[ cine_e_series DEBUG ]'
 LOGPATH = xbmc.translatePath('special://logpath/')
 
 
 def log(msg, level=LOGNOTICE):
-    debug_enabled = control.addon('plugin.video.sealteam6').getSetting('addon_debug')
-    debug_log = control.addon('plugin.video.sealteam6').getSetting('debug.location')
+    debug_enabled = control.addon('plugin.video.cine_e_series').getSetting('addon_debug')
+    debug_log = control.addon('plugin.video.cine_e_series').getSetting('debug.location')
 
     print(DEBUGPREFIX + ' Debug Enabled?: ' + str(debug_enabled))
     print(DEBUGPREFIX + ' Debug Log?: ' + str(debug_log))
 
-    if not control.addon('plugin.video.sealteam6').getSetting('addon_debug') == 'true':
+    if not control.addon('plugin.video.cine_e_series').getSetting('addon_debug') == 'true':
         return
 
     try:
         if isinstance(msg, six.text_type):
             msg = '%s (ENCODED)' % (six.ensure_str(msg))
 
-        if not control.addon('plugin.video.sealteam6').getSetting('debug.location') == '0':
-            log_file = os.path.join(LOGPATH, 'sealteam6.log')
+        if not control.addon('plugin.video.cine_e_series').getSetting('debug.location') == '0':
+            log_file = os.path.join(LOGPATH, 'cine_e_series.log')
             if not os.path.exists(log_file):
                 f = open(log_file, 'w')
                 f.close()

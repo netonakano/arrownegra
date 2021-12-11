@@ -2,7 +2,7 @@
 
 """
     Exodus Add-on
-    ///Updated for Seal Team 6///
+    ///Updated for Cine_e_Series///
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,7 +24,7 @@ import re, sys, gzip, time, random, base64, traceback
 
 import simplejson as json
 
-from sealteam6scrapers.modules import cache, dom_parser, log_utils, control
+from cine_e_seriesscrapers.modules import cache, dom_parser, log_utils, control
 
 import six
 from six.moves import range as x_range
@@ -238,7 +238,7 @@ def request(url, close=True, redirect=True, error=False, verify=True, proxy=None
             if response.code == 503:
 
                 if 'cf-browser-verification' in response.read(5242880):
-                    from sealteam6scrapers.modules import cfscrape
+                    from cine_e_seriesscrapers.modules import cfscrape
 
                     netloc = '{0}://{1}'.format(urlparse(url).scheme, urlparse(url).netloc)
 

@@ -25,8 +25,8 @@ import re
 
 from six.moves import urllib_parse
 
-from sealteam6scrapers.modules import client
-from sealteam6scrapers.modules import utils
+from cine_e_seriesscrapers.modules import client
+from cine_e_seriesscrapers.modules import utils
 
 
 def request(url, check, close=True, redirect=True, error=False, proxy=None, post=None, headers=None, mobile=False, XHR=False, limit=None, referer=None, cookie=None, compression=True, output='', timeout='30'):
