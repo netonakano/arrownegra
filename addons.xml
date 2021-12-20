@@ -125,7 +125,7 @@ v3.0.3
 	</extension>
 </addon>
 
-<addon id="plugin.video.arrowportal"name="[COLOR yellow][B]arrow[/B][/COLOR][COLOR lime][B]portal[/B][/COLOR]"version="1.0.1+matrix"provider-name="FLECHANEGRA">
+<addon id="plugin.video.arrowportal"name="[COLOR yellow][B]arrow[/B][/COLOR][COLOR lime][B]portal[/B][/COLOR]"version="1.0.2+matrix"provider-name="FLECHANEGRA">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" />
