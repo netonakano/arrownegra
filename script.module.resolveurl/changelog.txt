@@ -1,16 +1,22 @@
-Version 5.1.37 (Aug 01, 2021)
+Version 5.1.53 (Dec 05, 2021)
 - Code Base Changes:
-    - None
+    - update supported video extensions
 
 - Resolvers Added:
-    - gogostream
-    - streamani
+    - peertube
+    - streamhub
+    - vtube
  
 - Resolvers Fixed/Updated:
-    - Speedostream
-    - Fembed
-    - Streamsb
-    - upvideo
+    - lbry
+    - pandafiles
+    - streamingcommunity
+    - streamsb
+    - supervideo
+    - tvlogy
+    - vidbom
+    - vudeo
+    - vupload
 
 - Resolvers Removed
     - None

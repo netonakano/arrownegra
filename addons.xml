@@ -553,6 +553,38 @@ v1.0.0.matrix.1
 	</extension>
 </addon>
 
+<addon id="plugin.video.gloriosotv"
+       name="[B][COLOR chocolate]Glorioso Tv[/COLOR][/B]"
+       version="2.0"
+       provider-name="[B][COLOR yellow]Glorioso Tv[/COLOR][/B]">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.resolveurl" />
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR chocolate]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v2.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+</news>
+    <platform>all</platform>
+    <assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.jpg</screenshot>
+<screenshot>resources/screenshots/movies.jpg</screenshot>
+<screenshot>resources/screenshots/series.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -3217,11 +3249,12 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.37" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.53" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.certifi" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="plugin.googledrive" optional="true" />
@@ -3245,6 +3278,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
         </assets>
     </extension>
 </addon>
+
 
 <addon id="script.speedtester" name="Speed Tester" version="1.1.2+matrix.1" provider-name="Dr0idGuy, dagwieers">
   <requires>
