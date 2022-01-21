@@ -587,7 +587,7 @@ v1.0.0.matrix.1
 
 <addon id="plugin.video.gloriosotv"
        name="[B][COLOR chocolate]Glorioso Tv[/COLOR][/B]"
-       version="2.0"
+       version="2.1"
        provider-name="[B][COLOR yellow]Glorioso Tv[/COLOR][/B]">
 
   <requires>
@@ -604,7 +604,7 @@ v1.0.0.matrix.1
     <summary lang="en">[B][COLOR chocolate]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
     <description lang="en">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
     <news>
-[B][COLOR chocolate]v2.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+[B][COLOR chocolate]v2.1 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
 </news>
     <platform>all</platform>
     <assets>
@@ -616,6 +616,7 @@ v1.0.0.matrix.1
 </assets>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
 <requires>
