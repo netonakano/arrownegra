@@ -1,6 +1,4 @@
 #ArrowNegra Repository
-# Versão Actual: 1.9.0 (MATRIX)
-# Versão Actual: 2.8 (LEIA)
 
 Instruções para a adição deste repo:
 
