@@ -2636,49 +2636,6 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
     </extension>
 </addon>
 
-<addon id="script.marvelrus.artwork" version="2.0.1" name="[B][COLOR red]Marvelrus[/COLOR] Artwork[/B]" provider-name="Marvelrus">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]Marvelrus[/COLOR] Artwork[/B] is free for everyone.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
-<addon id="script.marvelrus.metadata" version="2.0.1" name="[B][COLOR red]Marvelrus[/COLOR] Metadata[/B]" provider-name="Marvelrus">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR red]Marvelrus[/COLOR] Metadata[/B] is free for everyone.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
 
 <addon id="script.module.cine_e_series" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Module[/COLOR]" version="1.0.0" provider-name="ArrowNegra">
 	<requires>
@@ -2693,29 +2650,6 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
 	</extension>
 </addon>
 
-<addon id="script.module.civitasscrapers" name="Civitas Scrapers Module" version="2.0" provider-name="CivitasAdmin">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">Civitas Scrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
 
 <addon id="script.module.cryptopy" name="CryptoPy" version="1.2.6" provider-name="cryptopy.sourceforge.net">
   <requires>
