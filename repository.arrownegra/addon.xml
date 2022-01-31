@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-	<addon 
+  <addon 
   id="repository.arrownegra" 
   name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]" 
   version="2.01" 
@@ -47,5 +46,3 @@
     </assets>
   </extension>
 </addon>
-
-</addons>
