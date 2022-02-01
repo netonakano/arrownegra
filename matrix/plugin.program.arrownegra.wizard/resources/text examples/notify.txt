@@ -1,3 +1,0 @@
-1
-|||
-Currently no build installed from Robin Hood Wizard.  Select Build Menu to install a Community Build fro us or Ignore to newer see this message again. Thank you for choosing Robin Hood Wizard.
