@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.arrownegrasimple"
-  version="19.0.2"
+  version="19.0.3"
   name="PVR ARROWNEGRA SIMPLE"
-  provider-name="nightik and Ross Nicholson">
+  provider-name="ArrowNegra">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
