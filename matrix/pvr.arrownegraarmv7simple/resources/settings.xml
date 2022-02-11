@@ -32,7 +32,7 @@
         </setting>
         <setting id="m3uUrl" type="string" parent="m3uPathType" label="30012" help="30603">
           <level>0</level>
-          <default>https://magnetic1.ratpack.appboxes.co/jet/playlist1.m3u8</default>
+          <default></default>
           <constraints>
             <allowempty>true</allowempty>
           </constraints>
