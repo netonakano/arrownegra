@@ -6,6 +6,8 @@ from threading import Thread
 base_url = ""
 domain = ""
 x = 0
+# xbmc.log = print
+
 
 class MyServer(BaseHTTPRequestHandler):
     def m3u8(self, req_type: str):
@@ -24,7 +26,7 @@ class MyServer(BaseHTTPRequestHandler):
         headers = dict(self.headers)
         del headers["Host"]
         r = requests.get(url, headers=headers, stream=True) if req_type == "GET" else requests.head(url, headers=headers)
-        if r.status_code == 403:
+        if r.status_code in [403, 404]:
             xbmc.log(f"JetProxy: got status code {r.status_code}; start retrying (x = {x})", xbmc.LOGINFO)
             for i in range(20):
                 headers["User-Agent"] = headers["User-Agent"] + str(x)
@@ -38,7 +40,7 @@ class MyServer(BaseHTTPRequestHandler):
         base_url = "http://" + r_parse.netloc
         self.send_response(r.status_code)
         for key, value in r.headers.items():
-            if key in ["Server", "Date", "Connection"]:
+            if key in ["Server", "Date", "Connection", "Content-Length"]:
                 continue
             self.send_header(key, value)
         self.end_headers()
@@ -126,7 +128,7 @@ class MyServer(BaseHTTPRequestHandler):
             thread = Thread(target=shutdown, args=(self.server,))
             thread.setDaemon(True)
             thread.start()
-        elif self.path.endswith(".ts"):
+        elif self.path.endswith(".ts") or (self.path.startswith("/hls/") and not self.path.endswith(".ts") and not self.path.endswith(".m3u8")):
             self.ts("GET")
         else:
             self.m3u8("GET")
