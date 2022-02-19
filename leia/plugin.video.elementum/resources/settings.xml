@@ -261,6 +261,7 @@
         <setting id="internal_dns_enabled" label="30495" type="bool" default="false" />
         <setting id="internal_dns_help" label="30496" type="text" enable="false" />
         <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" />
+        <setting id="internal_dns_opennic" label="30671" type="text" default="163.172.168.171, 152.70.189.130, 167.86.112.174" enable="eq(-3,true)" />
 
         <setting id="internal_proxy_enabled" label="30487" type="bool" default="false" />
         <setting id="internal_proxy_logging" label="30489" type="bool" default="false" />

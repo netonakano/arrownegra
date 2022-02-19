@@ -2109,3 +2109,11 @@ msgstr "Позначати як непереглянуте в Trakt"
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
 msgstr ""
+
+msgctxt "#30670"
+msgid "Downloading required binary file for '%s'"
+msgstr ""
+
+msgctxt "#30671"
+msgid "List of Opennic DNS IPs"
+msgstr ""

@@ -925,11 +925,12 @@ v1.0.0.matrix.1
     </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.83" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.86" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -968,6 +969,8 @@ v1.0.0.matrix.1
         </assets>
     </extension>
 </addon>
+
+
 
 <addon id="plugin.video.EspadaNegra" name="[COLOR grey]Espada [COLOR blue] Negra [/COLOR]" version="1.1.6+matrix" provider-name="FlechaNegra">
   <requires>
