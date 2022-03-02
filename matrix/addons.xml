@@ -1471,7 +1471,7 @@ v1.14.1 (2021-02-25)
 </addon>
 
 <addon
-  id="pvr.ArrowLightning_aarch64"
+  id="pvr.ArrowLightning"
   version="22.2.22"
   name="ArrowLightning Client"
   provider-name="Arrow Negra">
@@ -1646,7 +1646,7 @@ v1.14.1 (2021-02-25)
 </addon>
 
 <addon
-  id="pvr.ArrowLightning_armv7"
+  id="pvr.ArrowLightning"
   version="22.2.22"
   name="ArrowLightning Client"
   provider-name="Arrow Negra">

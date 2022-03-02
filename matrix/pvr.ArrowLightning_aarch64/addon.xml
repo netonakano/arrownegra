@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.ArrowLightning_aarch64"
+  id="pvr.ArrowLightning"
   version="22.2.22"
   name="ArrowLightning Client"
   provider-name="Arrow Negra">
