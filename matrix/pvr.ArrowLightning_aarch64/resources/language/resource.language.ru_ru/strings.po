@@ -1,6 +1,6 @@
 # Kodi Media Center language file
-# Addon Name: Stalker Client
-# Addon id: pvr.stalker
+# Addon Name: ArrowLightning Client
+# Addon id: pvr.ArrowLightning
 # Addon Provider: Jamal Edey
 msgid ""
 msgstr ""
@@ -17,12 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgctxt "Addon Summary"
-msgid "PVR Client to connect Kodi to Stalker Middleware"
-msgstr "Клиент PVR для подключения Stalker Middleware к Kodi"
+msgid "PVR Client to connect Kodi to ArrowLightning Middleware"
+msgstr "Клиент PVR для подключения ArrowLightning Middleware к Kodi"
 
 msgctxt "Addon Description"
-msgid "PVR Client to connect Kodi to Stalker Middleware"
-msgstr "Клиент PVR для подключения Stalker Middleware к Kodi"
+msgid "PVR Client to connect Kodi to ArrowLightning Middleware"
+msgstr "Клиент PVR для подключения ArrowLightning Middleware к Kodi"
 
 msgctxt "Addon Disclaimer"
 msgid "This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects."
