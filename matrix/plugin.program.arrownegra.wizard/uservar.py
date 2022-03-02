@@ -1,5 +1,4 @@
-import os, xbmc, xbmcaddon
-import binascii
+import os, xbmcaddon
 #########################################################
 ### User Edit Variables #################################
 #########################################################
@@ -7,16 +6,16 @@ import binascii
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = 'Arrow Negra Wizard'
-BUILDERNAME    = 'Arrow Negra Wizard'
+ADDONTITLE     = 'ARROWNEGRA WIZARD'
+BUILDERNAME    = 'ARROWNEGRA WIZARD'
 #########################Make sure to change the repo to yours!!!!
-EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
+EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six', 'repository.GreenRevolution', 'plugin.program.KodiBalkan']
 BUILDFILE      = 'https://cld.pt/dl/download/235f3fff-2b61-4c7b-9b62-5a3d1a98aa41/19builds.txt'
 UPDATECHECK    = 0
-APKFILE        = 'https://'
+APKFILE        = 'http://'
 YOUTUBETITLE   = 'FTG Help Videos' 
 YOUTUBEFILE    = 'http://'
-ADDONFILE      = 'https://'
+ADDONFILE      = 'http://'
 ADVANCEDFILE   = 'http://'
 ROMPACK        = 'http://'
 EMUAPKS        = 'http://'
@@ -39,6 +38,7 @@ FOCUS_BUTTON_COLOR = 'purple'
 EXIT_BUTTON_COLOR = 'red'
 #Highlight outline for lists
 HIGHLIGHT_LIST = 'button_focus'
+HIGHLIGHT_LIST2 = 'MenuItemFO'
 ##No TXT file Banner
 NO_TXT_FILE = 'pink'
 
@@ -61,7 +61,7 @@ DES_T_COLOR = 'ghostwhite'
 DESCOLOR = 'yellow'
 
 #Wizard title name and verion color
-WIZTITLE = 'Arrow Negra Wizard'
+WIZTITLE = 'ARROWNEGRA WIZARD'
 WIZTITLE_COLOR = 'ghostwhite'
 VERTITLE_COLOR = 'ghostwhite'
 VER_NUMBER_COLOR = 'yellow'
@@ -83,9 +83,9 @@ THEME2         = '[COLOR '+COLOR4+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
 THEME3         = '[COLOR '+COLOR3+']%s[/COLOR]'
 # Current Build Header / %s is the menu item and is required
-THEME4         = '[COLOR '+COLOR3+']Current Build:[/COLOR] [COLOR '+COLOR3+']%s[/COLOR]'
+THEME4         = '[COLOR '+COLOR3+']Current Build:[/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 # Current Theme Header / %s is the menu item and is required
-THEME5         = '[COLOR '+COLOR3+']Current Theme:[/COLOR] [COLOR '+COLOR3+']%s[/COLOR]'
+THEME5         = '[COLOR '+COLOR3+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 THEME6         = '[COLOR '+COLOR3+'][B]%s[/B][/COLOR]'
 
 
@@ -140,9 +140,9 @@ AUTOINSTALL    = 'No'
 # Addon ID for the repository
 REPOID         = ''
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'http://'
+REPOADDONXML   = 'https://'
 # Url to folder zip is located in
-REPOZIPURL     =  'http://'
+REPOZIPURL     =  'https://'
 #########################################################
 
 #########################################################
@@ -151,12 +151,12 @@ REPOZIPURL     =  'http://'
 # Enable Notification screen Yes or No
 ENABLE         = 'Yes'
 # Url to notification file
-NOTIFICATION   = 'https://'
+NOTIFICATION   = 'http://'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Text'
 # Font size of header
 FONTHEADER     = 'Font13'
-HEADERMESSAGE  = 'Arrow Negra Wizard'
+HEADERMESSAGE  = 'ARROWNEGRA WIZARD'
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Font for Notification Window

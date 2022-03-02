@@ -1,3 +1,50 @@
+############################################################################
+#                             /T /I                                        #
+#                              / |/ | .-~/                                 #
+#                          T\ Y  I  |/  /  _                               #
+#         /T               | \I  |  I  Y.-~/                               #
+#        I l   /I       T\ |  |  l  |  T  /                                #
+#     T\ |  \ Y l  /T   | \I  l   \ `  l Y       If your going to copy     #
+# __  | \l   \l  \I l __l  l   \   `  _. |       this addon just           #
+# \ ~-l  `\   `\  \  \ ~\  \   `. .-~   |        give credit!              #
+#  \   ~-. "-.  `  \  ^._ ^. "-.  /  \   |                                 #
+#.--~-._  ~-  `  _  ~-_.-"-." ._ /._ ." ./        Stop Deleting the        #
+# >--.  ~-.   ._  ~>-"    "\   7   7   ]          credits file!            #
+#^.___~"--._    ~-{  .-~ .  `\ Y . /    |                                  #
+# <__ ~"-.  ~       /_/   \   \I  Y   : |                                  #
+#   ^-.__           ~(_/   \   >._:   | l______                            #
+#       ^--.,___.-~"  /_/   !  `-.~"--l_ /     ~"-.                        #
+#              (_/ .  ~(   /'     "~"--,Y   -=b-. _)                       #
+#               (_/ .  \  :           / l      c"~o \                      #
+#                \ /    `.    .     .^   \_.-~"~--.  )                     #
+#                 (_/ .   `  /     /       !       )/                      #
+#                  / / _.   '.   .':      /        '                       #
+#                  ~(_/ .   /    _  `  .-<_                                #
+#                    /_/ . ' .-~" `.  / \  \          ,z=.  Surfacingx     #
+#                    ~( /   '  :   | K   "-.~-.______//   Original Author  #
+#                      "-,.    l   I/ \_    __{--->._(==.                  #
+#                       //(     \  <    ~"~"     //                        #
+#                      /' /\     \  \     ,v=.  ((     Fire TV Guru        #
+#                    .^. / /\     "  }__ //===-  `    PyXBMCt LaYOUt       #
+#                   / / ' '  "-.,__ {---(==-                               #
+#                 .^ '       :  T  ~"   ll                                 #
+#                / .  .  . : | :!        \                                 #
+#               (_/  /   | | j-"          ~^                               #
+#                 ~-<_(_.^-~"                                              #
+#                                                                          #
+#                  Copyright (C) One of those Years....                    #
+#                                                                          #
+#  This program is free software: you can redistribute it and/or modify    #
+#  it under the terms of the GNU General Public License as published by    #
+#  the Free Software Foundation, either version 3 of the License, or       #
+#  (at your option) any later version.                                     #
+#                                                                          #
+#  This program is distributed in the hope that it will be useful,         #
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of          #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           #
+#  GNU General Public License for more details.                            #
+#                                                                          #
+############################################################################
 
 import xbmc, xbmcaddon, xbmcgui, xbmcplugin, os, sys, xbmcvfs, glob
 import shutil
@@ -147,7 +194,7 @@ def checkSkin():
 						gotoname = skinname[choice]
 				else: wiz.log("Skin was not reset", xbmc.LOGINFO); wiz.setS('defaultskinignore', 'true')
 			else:
-				if DIALOG.yesno(ADDONTITLE, "[COLOR %s]It seems that the skin has been set back to [COLOR %s]%s[/COLOR]" % (COLOR2, COLOR1, SKIN[5:].title()), "Would you like to set the skin back to:[/COLOR]" + '\n[COLOR %s]%s[/COLOR]' % (COLOR1, skinname[0])):
+				if DIALOG.yesno(ADDONTITLE, "[COLOR %s]It seems that the skin has been set back to [COLOR %s]%s[/COLOR]" % (COLOR2, COLOR1, SKIN[5:].title()) + "\nWould you like to set the skin back to:[/COLOR]" + '\n[COLOR %s]%s[/COLOR]' % (COLOR1, skinname[0])):
 					gotoskin = skinlist[0]
 					gotoname = skinname[0]
 				else: wiz.log("Skin was not reset", xbmc.LOGINFO); wiz.setS('defaultskinignore', 'true')
@@ -278,7 +325,7 @@ wiz.log("[Installed Check] Started", xbmc.LOGINFO)
 if INSTALLED == 'true':
 	if KODIV >= 17:
 		wiz.kodi17Fix()
-		if SKIN in ['skin.confluence', 'skin.estuary']:
+		if SKIN in ['skin.estuary']:
 			checkSkin()
 		FAILED = True
 	elif not EXTRACT == '100' and not BUILDNAME == "":
@@ -290,7 +337,7 @@ if INSTALLED == 'true':
 			wiz.ebi("PlayMedia(plugin://%s/?mode=install&name=%s&url=fresh)" % (ADDON_ID, urllib.parse.quote_plus(BUILDNAME)))
 			wiz.log("[Installed Check] Fresh Install Re-activated", xbmc.LOGINFO)
 		else: wiz.log("[Installed Check] Reinstall Ignored")
-	elif SKIN in ['skin.confluence', 'skin.estuary']:
+	elif SKIN in ['skin.estuary']:
 		wiz.log("[Installed Check] Incorrect skin: %s" % SKIN, xbmc.LOGINFO)
 		defaults = wiz.getS('defaultskin')
 		if not defaults == '':
@@ -343,7 +390,7 @@ if FAILED == False:
 		wiz.setS('lastbuildcheck', str(NEXTCHECK))
 	elif not BUILDNAME == '':
 		wiz.log("[Build Check] Build Installed", xbmc.LOGINFO)
-		if SKIN in ['skin.confluence', 'skin.estuary'] and not DEFAULTIGNORE == 'true':
+		if SKIN in ['skin.estuary'] and not DEFAULTIGNORE == 'true':
 			checkSkin()
 			wiz.log("[Build Check] Build Installed: Checking Updates", xbmc.LOGINFO)
 			wiz.setS('lastbuildcheck', str(NEXTCHECK))

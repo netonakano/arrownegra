@@ -4,10 +4,10 @@
      <setting id="sep1" type="lsep" label="30002" />
      <setting id="connection_timeout" type="enum" label="30003" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
      <setting type="lsep" label="ARROW PORTALS AUTO&FIXED" />
-     <setting id="provider.arrownegra" type="bool" label="UPDATE ARROW PORTAL " default="false" />
-     <setting id="provider.arrownegra.settings" subsetting="true" type="action" label="START UPDATE" option="close" action="RunPlugin(plugin://plugin.program.arrownegra.wizard/?url=&mode=10)" visible="eq(-1,true)" />
+     <setting id="provider.arrow" type="bool" label="UPDATE ARROW PORTAL " default="false" />
+     <setting id="provider.arrow.settings" subsetting="true" type="action" label="START UPDATE" option="close" action="RunPlugin(plugin://plugin.program.arrownegra.wizard/?url=&;mode=10)" visible="eq(-1,true)" />
 	</category>
-  <category label="Trovão 1">
+  <category label="AUTO 1">
     <setting id="mac_0" type="text" label="30101" option="hidden" default="00:1a:79:B4:28:32" visible="hidden" />
     <setting id="server_0" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/London" visible="hidden" />
@@ -26,7 +26,7 @@
     <setting id="signature_0" type="text" label="30124" default="" visible="hidden" />
   </category>
   
-  <category label="Relâmpago 2">
+  <category label="AUTO 2">
     <setting id="mac_1" type="text" label="30101" option="hidden" default="00:1A:79:57:fa:1b" visible="hidden" />
     <setting id="server_1" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_1" type="text" label="30103" default="Europe/Kiev" visible="hidden" />
@@ -47,7 +47,7 @@
   
 
 
-    <category label="Raio 3">
+    <category label="AUTO 3">
     <setting id="mac_2" type="text" label="30101" option="hidden" default="00:1A:79:D0:02:DC" visible="hidden" />
     <setting id="server_2" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_2" type="text" label="30103" default="Europe/Kiev" visible="hidden" />
@@ -66,7 +66,7 @@
     <setting id="signature_2" type="text" label="30124" default="" visible="hidden" />
   </category>
 
-   <category label="Trovoada 4">
+   <category label="AUTO 4">
     <setting id="mac_3" type="text" label="30101" option="hidden" default="00:1A:79:B7:58:90" visible="hidden" />
     <setting id="server_3" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_3" type="text" label="30103" default="Europe/Kiev" visible="hidden" />
@@ -84,7 +84,7 @@
     <setting id="device_id2_3" type="text" label="30123" default="" visible="hidden" />
     <setting id="signature_3" type="text" label="30124" default="" visible="hidden" />
   </category>
-<category label="Flash 5">
+<category label="PORTAL 5">
     <setting id="mac_4" type="text" label="30101" default="00:1A:79:00:00:00" />
     <setting id="server_4" type="text" label="30102" default="127.0.0.1" />
     <setting id="time_zone_4" type="text" label="30103" default="Europe/Kiev" />

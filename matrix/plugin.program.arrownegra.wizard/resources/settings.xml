@@ -38,11 +38,11 @@
 		<setting id="path" type="folder" label="Choose Backup Storage Location" default=""/>
 		<setting id="rompath" type="folder" label="Choose Roms Extract Location Location" default=""/>
 		<setting type="lsep" label="Maintenance Options: "/>
-		<setting id="clearcache" type="bool" label="Clear Cache on Startup" default="false"/>
+		<setting id="clearcache" type="bool" label="Clear Cache on Startup" default="true"/>
 		<setting type="lsep" label="Package Folder Limit" />
-		<setting id="filesize_alert" type="slider" label="Max Folder Size MB" default="200" range="25,25,500" option="int" />
+		<setting id="filesize_alert" type="slider" label="Max Folder Size MB" default="100" range="25,25,500" option="int" />
 		<setting type="lsep" label="Thumbnails Folder Limit" />
-		<setting id="filesizethumb_alert" type="slider" label="Max Folder Size MB" default="500" range="100,50,1500" option="int" />
+		<setting id="filesizethumb_alert" type="slider" label="Max Folder Size MB" default="200" range="100,50,1500" option="int" />
 		<setting type="lsep" label="Upload Log: "/>
 		<setting id="email" type="text" label="E-Mail Address" />
 		<setting id="oldlog" type="bool" label="Include Kodi.Old.Log" default="false"/>
