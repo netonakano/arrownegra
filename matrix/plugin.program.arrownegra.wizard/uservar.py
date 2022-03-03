@@ -136,13 +136,13 @@ WIZARDFILE     = 'http://'
 ### AUTO INSTALL ########################################
 ########## REPO IF NOT INSTALLED ########################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL    = 'No'
+AUTOINSTALL    = 'Yes'
 # Addon ID for the repository
-REPOID         = ''
+REPOID         = 'repository.arrownegra'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'https://'
+REPOADDONXML   = 'https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL     =  'https://'
+REPOZIPURL     =  'https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix'
 #########################################################
 
 #########################################################
