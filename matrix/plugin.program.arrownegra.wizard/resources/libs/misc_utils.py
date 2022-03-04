@@ -60,11 +60,11 @@ def convert_row(row):
     return f"""<settings version="2">
     <setting id="active_portal" default="true">0</setting>
     <setting id="connection_timeout">1</setting>
-    <setting id="provider.ArrowLightning" default="true">false</setting>
-    <setting id="provider.ArrowLightning.settings" default="true" />
+    <setting id="provider.arrow" default="true">false</setting>
+    <setting id="provider.arrow.settings" default="true" />
     <setting id="mac_0" default="true">{row[2]}</setting>
     <setting id="server_0" default="true">{row[1]}</setting>
-    <setting id="time_zone_0" default="true">Europe/London</setting>
+    <setting id="time_zone_0" default="true">Europe/Kiev</setting>
     <setting id="login_0" default="true" />
     <setting id="password_0" default="true" />
     <setting id="guide_preference_0" default="true">1</setting>
