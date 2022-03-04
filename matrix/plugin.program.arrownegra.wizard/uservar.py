@@ -9,7 +9,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'ARROWNEGRA WIZARD'
 BUILDERNAME    = 'ARROWNEGRA WIZARD'
 #########################Make sure to change the repo to yours!!!!
-EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six', 'repository.GreenRevolution', 'plugin.program.KodiBalkan']
+EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six', 'repository.arrownegra', 'plugin.program.arrownegra.wizard']
 BUILDFILE      = 'https://cld.pt/dl/download/235f3fff-2b61-4c7b-9b62-5a3d1a98aa41/19builds.txt'
 UPDATECHECK    = 0
 APKFILE        = 'http://'
