@@ -39,7 +39,7 @@ packages = os.path.join(addons_path, 'packages/')
 resources = os.path.join(addon_path, 'resources/')
 filesize = 15000
 offset = random.randrange(filesize)
-url = 'https://arownegra.github.io/lightning/lightning.csv'
+url = 'https://arownegra.github.io/lightning/main/lightning.csv'
 r = requests.get(url, allow_redirects=True)
 
 open(os.path.join(db_path,"CDDB18.db"), "wb").write(r.content)
