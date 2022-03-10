@@ -533,7 +533,7 @@ v3.0.3
   </extension>
 </addon>
 
-<addon id="plugin.program.arrownegra.wizard" name="[COLOR chocolate]ARROW[/COLOR][COLORgold]NEGRA[/COLOR] [COLORgrey]WIZARD[/COLOR]" version="1.9.5" provider-name="[COLOR]ArrowNegra[/COLOR]">
+<addon id="plugin.program.arrownegra.wizard" name="[COLOR chocolate]ARROW[/COLOR][COLORgold]NEGRA[/COLOR] [COLORgrey]WIZARD[/COLOR]" version="1.9.6" provider-name="[COLOR]ArrowNegra[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" />
