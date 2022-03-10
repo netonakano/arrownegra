@@ -677,7 +677,7 @@ v3.0.3
   </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow.esportes" name="[COLOR yellow]Blackarrow[/COLOR][COLOR lime]Esportes[/COLOR]" version="1.0.8+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow.esportes" name="[COLOR yellow]Blackarrow[/COLOR][COLOR lime]Esportes[/COLOR]" version="1.1.8+matrix.1" provider-name="Flechanegra">
   <requires>
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />

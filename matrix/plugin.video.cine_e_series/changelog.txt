@@ -1,2 +1,0 @@
-[B][COLOR aqua]v0.0.2[/COLOR][/B]
-- Initial Release
