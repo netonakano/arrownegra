@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.0.0" provider-name="ArrowNegra">
+<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.0.2" provider-name="ArrowNegra">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -15,20 +15,36 @@
 		<import addon="script.module.slproxy" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>   
-<extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLORorange]aguianegra[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-	<summary lang="pt">[COLORorange]aguianegra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-   </assets>
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.repository" name="Arrow Negra repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/arrownegra/repository.arrownegra.github.io/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/arrownegra/repository.arrownegra.github.io/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/arrownegra/repository.arrownegra.github.io/main/</datadir>
+		</dir>
+    </extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description>
+
+
+AVISO LEGAL:
+
+Este addon não aloja nenhum conteudo mostrado.
+Todo o conteudo encuentra-se livremente na internet.
+Não se aceita nenhuma responsabilidade pelo uso deste addon.
+
+¡Enjoyyyy!
+		</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			
+		</assets>
 		<news>Primeira versão também compativel com Kodi 19 Matrix</news>
 	</extension>
 </addon>
