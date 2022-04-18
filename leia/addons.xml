@@ -297,38 +297,32 @@ version="1.0" provider-name="Flechanegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.Black_Truck"
-       name="[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR]"
-       version="2.3"
-       provider-name="Flecha Negra">
+<addon id="plugin.video.Black_Truck" name="[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR]" version="1.0.4" provider-name="Flechanegra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.simple.downloader"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.liveresolver" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.resolveurl" optional="true"/>
-    <import addon="script.module.simplejson" />    
+    <import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
     <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.slproxy" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
- </extension>
+  </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-    <description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <platform>all</platform>
-  <assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>     
     </assets>
   </extension>
 </addon>
@@ -473,35 +467,32 @@ v1.0.0.+Leia
     </extension>
 </addon>
 
-<addon id="plugin.video.FlashBrasil" name="[COLOR yellow][B]Flash[/B][/COLOR][COLOR lime][B]Brasil[/B][/COLOR]" version="4.0" provider-name="Flechanegra">
+<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR][COLOR lime]Brasil[/COLOR]" version="1.0.6" provider-name="Flechanegra">
   <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.simple.downloader"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.liveresolver" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.SportsDevil" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-    <description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR yellow]Flash[/COLOR][COLOR lime]Brasil[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>     
     </assets>
   </extension>
 </addon>
