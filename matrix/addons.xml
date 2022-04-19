@@ -559,7 +559,7 @@ v3.0.3
   </extension>
 </addon>
 
-<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.0.3" provider-name="ArrowNegra">
+<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.0.4" provider-name="ArrowNegra">
   <requires>
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />
