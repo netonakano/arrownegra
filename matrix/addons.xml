@@ -4285,6 +4285,36 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
+<addon
+  id="resource.language.pt_pt"
+  version="3.0.10"
+  name="Portuguese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pt_PT">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>O</token>
+      <token>A</token>
+      <token>Os</token>
+      <token>As</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Portuguese language pack</summary>
+    <description lang="en">Portuguese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Flechanegra" version="1.9.0">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
