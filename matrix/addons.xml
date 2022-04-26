@@ -974,7 +974,7 @@ v1.0.0.matrix.1
     </extension>
 </addon>
 
-<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR]" version="1.0.5+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR]" version="1.0.6+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -998,7 +998,7 @@ v1.0.0.matrix.1
     </assets>
 	<news>
 v1.0.0.matrix.1
-- Inauguração Flechanegra em Python 3
+
 	</news>
 </extension>
 </addon>
@@ -4285,6 +4285,31 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
+<addon
+  id="resource.language.pt_br"
+  version="9.0.47"
+  name="Portuguese (Brazil)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pt_BR">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Portuguese (Brazil) language pack</summary>
+    <description lang="en_GB">Portuguese (Brazil) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 <addon
   id="resource.language.pt_pt"
   version="3.0.10"
