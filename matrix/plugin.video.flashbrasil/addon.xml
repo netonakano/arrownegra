@@ -10,10 +10,10 @@
 	<provides>video</provides>
 </extension>   
 <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeis an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-	<summary lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeé um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-	<description lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeis an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-	<description lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeé um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+	<summary lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
 	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
     <platform>all</platform>
