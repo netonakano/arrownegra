@@ -450,7 +450,7 @@ version="1.0" provider-name="Flechanegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR][COLOR lime]Brasil[/COLOR]" version="1.0.7" provider-name="Flechanegra">
+<addon id="plugin.video.flashbrasil" name="[COLOR yellow]Flash[/COLOR][COLOR lime]Brasil[/COLOR]" version="1.2.7" provider-name="Flechanegra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup"/>
