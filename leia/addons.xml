@@ -2736,7 +2736,7 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-<addon id="script.module.horus" name="Horus" version="1.1.5" provider-name="Caperucitaferoz">
+<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
     </requires>
