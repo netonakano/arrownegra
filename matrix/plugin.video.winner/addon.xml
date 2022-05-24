@@ -17,8 +17,8 @@
         <license lang="es">[B]Este es un software gratuito[/B]</license>
         <platform>all</platform>
         <assets>
-            <icon>resources/media/icon.jpg</icon>
-            <fanart>resources/media/fanart.jpg</fanart>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
 
         <news></news>
