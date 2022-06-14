@@ -5326,7 +5326,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
-<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.0.0" provider-name="FlechaNegra">
+<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.0.1" provider-name="FlechaNegra">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
