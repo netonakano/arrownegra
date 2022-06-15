@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.0.1" provider-name="FlechaNegra">
+<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.0.2" provider-name="FlechaNegra">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
