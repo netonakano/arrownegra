@@ -5358,7 +5358,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
-<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.0.2" provider-name="FlechaNegra">
+<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.2.3" provider-name="FlechaNegra">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
@@ -5366,9 +5366,9 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
     <extension point="xbmc.python.script" library="default.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">addon, to modify kodi player</summary>
-    <summary lang="pt">addon, para modificar player do kodi</summary>
+        <summary lang="pt">addon, para modificar player do kodi</summary>
         <description lang="en">arrownegra group addon</description>
-    <description lang="pt">addon do grupo arrownegra</description>
+        <description lang="pt">addon do grupo arrownegra</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 1, 12 June 2022</license>
         <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
