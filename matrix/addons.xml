@@ -658,7 +658,26 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     <news>Primeira versão também compativel com Kodi 19 Matrix</news>
   </extension>
 </addon>
-
+<addon id="plugin.video.aguiavavoo"
+version="19.4.1matrix2"
+name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]"
+provider-name="Thks 2 stube Frkd ArrowNegra">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.22.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="service.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Live TV</summary>
+  <description lang="en_GB">Live TV Version</description>
+  <assets>
+    <icon>icon.png</icon>  
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
 
 <addon id="plugin.video.arrow.lsp" name="ArrowLSP" version="3.0.0" provider-name="arrownegra">
 	<requires>
