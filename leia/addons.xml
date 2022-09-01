@@ -78,7 +78,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     <news>Primeira versão também compativel com Kodi 19 Matrix</news>
   </extension>
 </addon>
-<addon id="plugin.video.aguia_real" name="[COLORskyblue]Águia [COLORbrown]Real[/COLOR]" version="1.0.0" provider-name="Flecha Negra"> 
+<addon id="plugin.video.aguia_real" name="[COLORskyblue]Águia [COLORbrown]Real[/COLOR]" version="1.0.1" provider-name="Flecha Negra"> 
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
@@ -289,7 +289,7 @@ version="1.0" provider-name="Flechanegra">
   <reuselanguageinvoker>true</reuselanguageinvoker>
 </extension>
 </addon>
-<addon id="plugin.video.Black_Truck" name="[COLOR red]Black [COLORorange]Truck[/COLOR]" version="1.0.9" provider-name="Flechanegra">
+<addon id="plugin.video.Black_Truck" name="[COLOR red]Black [COLORorange]Truck[/COLOR]" version="1.1.0" provider-name="Flechanegra">
    <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
