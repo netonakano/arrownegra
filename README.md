@@ -1,5 +1,5 @@
 # ARROWNEGRA REPOSITORY
-# Versão Actual: 2.01
+# Versão Actual: 2.02
 
 Instruções para a adição deste repo:
 
