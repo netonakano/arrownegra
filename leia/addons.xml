@@ -56,7 +56,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.2.9" provider-name="ArrowNegra">
+<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.3.0" provider-name="ArrowNegra">
   <requires>
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />
@@ -546,7 +546,7 @@ version="1.0" provider-name="Flechanegra">
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.kodiloucos_brasil" version="1.2.3+matrix" name="[COLOR green]KodiLoucos [COLORgold] Brasil[/COLOR]" provider-name="Marcão">
+<addon id="plugin.video.kodiloucos_brasil" version="1.2.4+matrix" name="[COLOR green]KodiLoucos [COLORgold] Brasil[/COLOR]" provider-name="Marcão">
 <requires>
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />

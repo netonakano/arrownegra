@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.2.9" provider-name="ArrowNegra">
+<addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.3.0" provider-name="ArrowNegra">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
