@@ -762,37 +762,28 @@ provider-name="Thks 2 stube Frkd ArrowNegra">
 	</extension>
 </addon>
 
-<addon id="plugin.video.blackarrow18" name="[COLOR red]black[/COLOR] [COLOR yellow]arrow18[/COLOR]" version="1.0.4+matrix.1" provider-name="Flechanegra">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
+<addon id="plugin.video.blackarrow18" name="[COLORlime]black[/COLOR] [COLORmaroon]arrow18[/COLOR]" version="1.1.5" provider-name="@by_arrow_negra"> 
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    </requires>  
+       <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>  
 <extension point="xbmc.addon.metadata">
-	<summary lang="en"></summary>
-	<summary lang="pt"></summary>
-	<description lang="en"></description>
-	<description lang="pt"></description>
-    <disclaimer lang="en"></disclaimer>
-	<disclaimer lang="pt"></disclaimer>
+    <summary>Canais de adultos</summary>
+    <description lang="en">[COLOR red]black[/COLOR] [COLORorange]arrow18[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <platform>all</platform>
-	<assets>
+    <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
-	   <screenshot>resources/screenshots/1.png</screenshot>
-       <screenshot>resources/screenshots/2.png</screenshot>
-       <screenshot>resources/screenshots/3.png</screenshot>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
-	<news>
-v1.0.0.matrix.1
-- Inauguração blackarrow18 em Python 3
-	</news>
-</extension>
-</addon>
+    </extension>
+</addon>    
 
 <addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.1.3+matrix.1" provider-name="Arrownegra"> 
 <requires>
