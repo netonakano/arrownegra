@@ -1291,7 +1291,7 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="plugin.video.vultur.de.foc" name="[COLORlime]Vultur[/COLOR] [COLORmaroon]foc[/COLOR]" version="0.1" provider-name="@by_arrow_negra"> 
+<addon id="plugin.video.vultur.de.foc" name="[COLORlime]Vultur[/COLOR] [COLORmaroon]foc[/COLOR]" version="0.2" provider-name="@by_arrow_negra"> 
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
@@ -1312,7 +1312,8 @@ v1.14.1 (2021-02-25)
        <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
     </extension>
-</addon>    
+</addon>   
+
 <addon id="plugin.video.winner" name="[COLOR orange]WINNER 2[/COLOR]" version="2.1" provider-name="La Taberna and Camaradas">
     <requires>
         <import addon="script.module.six" version="1.11.0" />
