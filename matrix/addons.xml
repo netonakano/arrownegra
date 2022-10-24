@@ -785,37 +785,6 @@ provider-name="Thks 2 stube Frkd ArrowNegra">
     </extension>
 </addon>    
 
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.1.3+matrix.1" provider-name="Arrownegra"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-  <import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>video</provides>
-</extension>   
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]is an add-on from the  Arrownegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-  <summary lang="pt">[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]é um addon da familia Arrownegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-  <description lang="en">[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]is an add-on from the Arrownegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-  <description lang="pt">[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]é um addon da familia Arrownegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-  <disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-  <assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-     <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-  </assets>
-  <news>
-v1.0.0.matrix.1
-- Inauguração Arrownegra em Python 3
-  </news>
-</extension>
-</addon>
 
 <addon id="plugin.video.blackarrowplaylist" name="[COLOR red]Blackarrow[/COLOR][COLOR black]Playlist[/COLOR] [COLORcyan]Matrix[/COLOR]" version="1.0.3+matrix" provider-name="Flechanegra">
   <requires>
@@ -860,42 +829,6 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.cine_e_series" version="1.9.3" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR]" provider-name="ArrowNegra">
-    <requires>
-        <!--<import addon="xbmc.python" version="2.20.0" />-->
-        <import addon="script.cine_e_series.artwork" />
-        <import addon="script.cine_e_series.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.cine_e_seriesscrapers" />
-        <import addon="script.module.six" />
-        <import addon="script.module.simplejson" />
-        <import addon="plugin.video.youtube" optional="true" />
-    </requires>
-    <extension library="cine_e_series.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">Movies and TV Shows</summary>
-        <description lang="en_GB">Working On Kodi 19[CR]Credits to all devs past and present.Please do NOT post This Add-on on Youtube,Facebook,Blogs or anywhere on the internet or Websites, thank you.</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
-        <website />
-        <source />
-        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news>
-- See Changelog on Tools menu
-        </news>
-    </extension>
-</addon>
 
 <addon id="plugin.video.duffyou" name="Duff You" version="0.1.3" provider-name="La Taberna">
     <requires>
@@ -1164,34 +1097,6 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.infinity" name="[COLORorange]Infinity[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-  <import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>video</provides>
-</extension>   
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">[COLORorange]Infinity[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-  <summary lang="pt">[COLORorange]Infinity[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-  <description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-  <description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-  <disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-  <assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-    </assets>
-  <news>
-v1.0.0.matrix.1
-- Inauguração Flechanegra em Python 3
-  </news>
-</extension>
-</addon>
 <addon id="plugin.video.netflix" name="Netflix" version="1.14.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
