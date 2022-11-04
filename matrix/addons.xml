@@ -533,6 +533,31 @@ v3.0.3
   </extension>
 </addon>
 
+<addon id="plugin.audio.aguiafm"name="[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR]"version="1.0.4" provider-name="FlechaNegra">
+    <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR] [COLORorange]é um addon da família ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+    <description>Online RadioStreams</description>
+    <license></license>
+    <language>pt</language> 
+    <source></source>
+    <email></email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <banner></banner>
+    <clearlogo></clearlogo>
+    <screenshot></screenshot>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.program.arrownegra.wizard" name="[COLOR chocolate]ARROW[/COLOR][COLORgold]NEGRA[/COLOR] [COLORgrey]WIZARD[/COLOR]" version="2.0.1" provider-name="[COLOR]ArrowNegra[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
