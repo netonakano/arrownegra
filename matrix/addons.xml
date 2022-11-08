@@ -2550,6 +2550,28 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
+<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.2.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="plugin.video.aguia-branca" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API Aguia_Branca Stalker</summary>
+    <description lang="en">[COLOR red]aguia-branca.api[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Flechanegra" version="1.9.0">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -2760,6 +2782,28 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
+<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.2.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="plugin.video.aguia-branca" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API Aguia_Branca Stalker</summary>
+    <description lang="en">[COLOR red]aguia-branca.api[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.speedtester" name="Speed Tester" version="1.1.2+matrix.1" provider-name="Dr0idGuy, dagwieers">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -2813,6 +2857,28 @@ Use this if you are experiencing streaming issues and you suspect your network t
 			<icon>icon.png</icon>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="script.x-codes.api" name="[COLORorange]Pach API -Codes[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="plugin.video.x-codes" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API X-Codes</summary>
+    <description lang="en">[COLOR red]plugin.video.x-[/COLOR] [COLORorange]codes[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles"
