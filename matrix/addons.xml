@@ -991,7 +991,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.1.1" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.2.4" provider-name="by_flecha_negra">
 
   <requires>        
       <!--<import addon="script.module.resolveurl" /> -->     
@@ -1016,6 +1016,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   </extension>  
   
 </addon>
+
 <addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="1.1" provider-name="by_flecha_negra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1070,6 +1071,27 @@ v1.0.0.matrix.1
 - Inauguração Flechanegra em Python 3
   </news>
 </extension>
+</addon>
+
+<addon id="plugin.video.freshstart" name="Fresh Start"
+  version="1.0.5" provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Factory Restore Functionality for Kodi</summary>
+    <description lang="en">Easily Factory Restore your Kodi Configuration in One Simple Click! This tool will bring your Kodi back to its original installation state, deleting all customizations and add-ons you may have previously enabled, giving you a fresh start!</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/141-FRESH-START</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>    
+  </extension>
 </addon>
 
 <addon id="plugin.video.gdrive" version="0.8.66" name="gDrive" provider-name="ddurdle">
