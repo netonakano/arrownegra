@@ -1,7 +1,8 @@
 <?xml version="2.1" encoding="UTF-8" standalone="yes"?>
 <addon id="script.x-codes.api" name="[COLORorange]Pach API -Codes[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
    <requires>
-	<import addon="script.module.six" />
+	<import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
 	<import addon="plugin.video.x-codes" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="main.py">
