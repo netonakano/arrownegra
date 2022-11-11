@@ -889,6 +889,65 @@ version="1.0" provider-name="Flechanegra">
 </addon>
 
 <addon
+  id="pvr.aguia.de.fogo"
+  version="18.09.84"
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR]"
+  provider-name="ArrowNegra">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.14"/>
+<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_android="libpvr.aguia.de.fogo.so"/>
+  <extension point="xbmc.addon.metadata">
+
+    <description lang="de_DE">. [COLOR silver]Águia de [COLORred]Fogo [COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET!</description>
+    <disclaimer lang="de_DE">Este é um software instável!  Os autores não são de forma alguma responsáveis por gravações com falha, temporizadores errados, perda de tempo ou quaisquer outros efeitos indesejados.</disclaimer>
+    <platform>android-aarch64</platform>
+    <path>pvr.aguia.de.fogo+android-aarch64/pvr.aguia.de.fogo-18.09.84.zip</path>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.aguia.de.fogo"
+  version="18.09.84"
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR]"
+  provider-name="aguia">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.14"/>
+<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_android="libpvr.aguia.de.fogo.so"/>
+  <extension point="xbmc.addon.metadata">
+
+    <description lang="de_DE">. [COLOR silver]Águia de [COLORred]Fogo [COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET!</description>
+    <disclaimer lang="de_DE">Este é um software instável!  Os autores não são de forma alguma responsáveis por gravações com falha, temporizadores errados, perda de tempo ou quaisquer outros efeitos indesejados.</disclaimer>
+    <platform>android-armv7</platform>
+    <path>pvr.aguia.de.fogo+android-armv7/pvr.aguia.de.fogo-18.09.84.zip</path>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.aguia.de.fogo"
+  version="18.09.84"
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR]"
+  provider-name="ArrowNegra">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.14"/>
+<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_windows="pvr.aguia.de.fogo.dll"/>
+  <extension point="xbmc.addon.metadata">
+
+    <description lang="de_DE">. [COLOR silver]Águia de [COLORred]Fogo [COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET!</description>
+    <disclaimer lang="de_DE">Este é um software instável!  Os autores não são de forma alguma responsáveis por gravações com falha, temporizadores errados, perda de tempo ou quaisquer outros efeitos indesejados.</disclaimer>
+    <platform>windows-x86_64</platform>
+    <path>pvr.aguia.de.fogo+windows-x86_64/pvr.aguia.de.fogo-18.09.84.zip</path>
+  </extension>
+</addon>
+<addon
   id="pvr.aguia.de.fogosimple"
   version="3.10.2"
   name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR] SIMPLE"
