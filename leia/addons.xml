@@ -889,16 +889,16 @@ version="1.0" provider-name="Flechanegra">
 </addon>
 
 <addon
-  id="pvr.arrownegraarchsimple"
+  id="pvr.aguia.de.fogosimple"
   version="3.10.2"
-  name="PVR ARROWNEGRA SIMPLE"
-  provider-name="nightik">
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR] SIMPLE"
+  provider-name="ArrowNegra">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_android="libpvr.iptvsimple.so"/>
+    library_android="libpvr.aguia.de.fogosimple.so"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi PVR byvoegsel vir IPTV ondersteuning. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="az_AZ">IPTV dəstəyi üçün Kodi PVR əlavəsini yükləyin.&#10;https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
@@ -1049,20 +1049,21 @@ version="1.0" provider-name="Flechanegra">
     <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
     <platform>android-aarch64</platform>
+    <path>pvr.aguia.de.fogosimple+android-aarch64/pvr.aguia.de.fogosimple-3.10.2.zip</path>
   </extension>
 </addon>
 
 <addon
-  id="pvr.arrownegradroidsimple"
+  id="pvr.aguia.de.fogosimple"
   version="3.10.2"
-  name="PVR ARROWNEGRA SIMPLE"
-  provider-name="nightik">
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR] SIMPLE"
+  provider-name="ArrowNegra">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_android="libpvr.iptvsimple.so"/>
+    library_android="libpvr.aguia.de.fogosimple.so"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi PVR byvoegsel vir IPTV ondersteuning. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="az_AZ">IPTV dəstəyi üçün Kodi PVR əlavəsini yükləyin.&#10;https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
@@ -1213,20 +1214,21 @@ version="1.0" provider-name="Flechanegra">
     <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
     <platform>android-armv7</platform>
+    <path>pvr.aguia.de.fogosimple+android-armv7/pvr.aguia.de.fogosimple-3.10.2.zip</path>
   </extension>
 </addon>
 
 <addon
-  id="pvr.arrownegrasimple"
+  id="pvr.aguia.de.fogosimple"
   version="3.10.2"
-  name="PVR ARROWNEGRA SIMPLE"
-  provider-name="nightik">
+  name="[COLORorange]ÁGUIA DE [COLORred]FOGO[/COLOR] SIMPLE"
+  provider-name="ArrowNegra">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_windows="pvr.iptvsimple.dll"/>
+    library_windows="pvr.aguia.de.fogosimple.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi PVR byvoegsel vir IPTV ondersteuning. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="az_AZ">IPTV dəstəyi üçün Kodi PVR əlavəsini yükləyin.&#10;https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
@@ -1377,9 +1379,9 @@ version="1.0" provider-name="Flechanegra">
     <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
     <platform>windows-x86_64</platform>
+    <path>pvr.aguia.de.fogosimple+windows-x86_64/pvr.aguia.de.fogosimple-3.10.2.zip</path>
   </extension>
 </addon>
-
 
    <addon
   id="repository.arrownegra"
