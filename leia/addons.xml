@@ -2129,27 +2129,6 @@ version="1.0" provider-name="Flechanegra">
 	</extension>
 </addon>
 
-<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.3" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
-   <requires>
-    <import addon="script.module.six" />
-    <import addon="pvr.aguia.de.fogo" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>  
-  <extension point="xbmc.addon.metadata">
-     <disclaimer lang="en"></disclaimer>
-     <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-    <summary>Pach API pvr Águia de Fogo</summary>
-        <description lang="en">[COLOR red]pvr.aguia.de.fogo[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    
-    <assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
 
 <addon id="script.skin.info.service" name="Skin Info Service" version="2.0.0" provider-name="phil65">
 	<requires>
@@ -2239,29 +2218,6 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-  </extension>
-</addon>
-
-<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
-   <requires>
-	<import addon="script.module.six"/>
-        <import addon="script.module.kodi-six"/>
-	<import addon="plugin.video.x-codes" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-     <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-    <summary>pach API X-Codes</summary>
-		<description lang="en">[COLOR red]plugin.video.x-[/COLOR] [COLORorange]codes[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-
-	<assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
 
