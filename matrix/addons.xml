@@ -5934,7 +5934,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
      <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon
+</addon>
 
 <addon id="script.speedtester" name="Speed Tester" version="1.1.2+matrix.1" provider-name="Dr0idGuy, dagwieers">
   <requires>
