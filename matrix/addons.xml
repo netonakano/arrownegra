@@ -3480,7 +3480,6 @@ v1.14.1 (2021-02-25)
     <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
     <platform>android-aarch64</platform>
 
-    
     <assets>
       <fanart>fanart.jpg</fanart>
       <icon>icon.png</icon>
@@ -3654,9 +3653,10 @@ v1.14.1 (2021-02-25)
     <platform>android-armv7</platform>
 
     <assets>
-    	<fanart>fanart.jpg</fanart>
+      <fanart>fanart.jpg</fanart>
       <icon>icon.png</icon>
     </assets>
+    <path>pvr.aguia.de.fogo+android-armv7/pvr.aguia.de.fogo-0.1.9.zip</path>
   </extension>
 </addon>
 
