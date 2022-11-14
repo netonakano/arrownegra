@@ -5470,20 +5470,20 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
-  <addon
-  id="repository.arrownegra"
-  name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]"
-  version="2.03"
+  <addon 
+  id="repository.arrownegra" 
+  name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]" 
+  version="2.04" 
   provider-name="Flecha Negra">
   <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
+    <import addon="xbmc.addon" version="12.0.0"/>  
   </requires>
   <extension point="xbmc.addon.repository" name="[COLOR red]Arrow Negra [COLOR red]Repositorio[/COLOR]">
       <dir>
-			<info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml</info>
-			<checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master</datadir>
-			<hashes>false</hashes>
+      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml</info>
+      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master</datadir>
+      <hashes>false</hashes>
   </dir>
   <dir minversion="19.9.9">
       <info compressed="true">
@@ -5491,20 +5491,20 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
       <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus</datadir>
       <hashes>false</hashes>
-   </dir>
+   </dir>   
   <dir minversion="19.0.0">
       <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml</info>
       <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix</datadir>
       <hashes>false</hashes>
-  </dir>
-	<dir minversion="18.0.0" maxversion="18.9.0">
-			<info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml</info>
-			<checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia</datadir>
-			<hashes>false</hashes>
+  </dir>    
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml</info>
+      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia</datadir>
+      <hashes>false</hashes>
     </dir>
-	</extension>
+  </extension>
   <extension point="xbmc.addon.metadata">
     <summary>repositorio Arrow Negra</summary>
     <description>repositorio oficial Arrow Negra - Proibido reproducao sem autorização prévia</description>
@@ -5516,6 +5516,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
     </assets>
   </extension>
 </addon>
+
 
 <addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 19.x (MATRIX)" version="1.0.0" provider-name="castagnait">
 	<extension point="xbmc.addon.repository" name="CastagnaIT Repository">
@@ -5911,6 +5912,18 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
+<addon id="script.scrubsv2.artwork" version="1.6" name="[COLOR orange]Scrubs v2 Artwork[/COLOR]" provider-name="JewBMX">
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Scrubs v2 Artwork</summary>
+        <description>Scrubs v2 Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <news>Changed the fanart to be a simple small image that has a matching color tone to the theme chosen.</news>
+    </extension>
+</addon>
 <addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.3.4" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
    <requires>
 	<import addon="script.module.six"/>

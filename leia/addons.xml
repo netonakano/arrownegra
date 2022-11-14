@@ -1442,13 +1442,13 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-   <addon
-  id="repository.arrownegra"
-  name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]"
-  version="2.03"
+ <addon 
+  id="repository.arrownegra" 
+  name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]" 
+  version="2.04" 
   provider-name="Flecha Negra">
   <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
+    <import addon="xbmc.addon" version="12.0.0"/>  
   </requires>
   <extension point="xbmc.addon.repository" name="[COLOR red]Arrow Negra [COLOR red]Repositorio[/COLOR]">
       <dir>
@@ -1463,14 +1463,14 @@ version="1.0" provider-name="Flechanegra">
       <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus</datadir>
       <hashes>false</hashes>
-   </dir>
+   </dir>   
   <dir minversion="19.0.0">
       <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml</info>
       <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix</datadir>
       <hashes>false</hashes>
-  </dir>
-  <dir minversion="18.0.0" maxversion="18.9.0">
+  </dir>    
+  <dir minversion="17.0.0" maxversion="18.9.0">
       <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml</info>
       <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia</datadir>
@@ -1487,6 +1487,24 @@ version="1.0" provider-name="Flechanegra">
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon>
+
+<addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 19.x (MATRIX)" version="1.0.0" provider-name="castagnait">
+    <extension point="xbmc.addon.repository" name="CastagnaIT Repository">
+        <dir>
+            <info>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml</info>
+            <checksum>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/matrix/zip</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>CastagnaIT Repository for Kodi 19.x (MATRIX)</summary>
+        <description>Castagna IT repository for Kodi 19.x add-ons</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.elementum" name="Elementum Repository" version="0.1.51" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
