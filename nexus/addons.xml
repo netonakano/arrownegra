@@ -482,27 +482,27 @@
 
 <addon id="plugin.audio.aguiafm"name="[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR]"version="1.0.4" provider-name="FlechaNegra">
     <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>audio</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR] [COLORorange]é um addon da família ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-		<description>Online RadioStreams</description>
-		<license></license>
-		<language>pt</language>
-		<source></source>
-		<email></email>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR] [COLORorange]é um addon da família ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+    <description>Online RadioStreams</description>
+    <license></license>
+    <language>pt</language> 
+    <source></source>
+    <email></email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <banner></banner>
+    <clearlogo></clearlogo>
+    <screenshot></screenshot>
+  </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.program.arrownegra.wizard" name="[COLOR chocolate]ARROW[/COLOR][COLORgold]NEGRA[/COLOR] [COLORgrey]WIZARD[/COLOR]" version="2.0.1" provider-name="[COLORchocolate][COLORgold]Arrow Negra[/COLOR]">
@@ -510,7 +510,7 @@
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />
-  	<import addon="script.module.requests"/>
+    <import addon="script.module.requests"/>
     <import addon="script.kodi.android.update" optional="true" version="1.3.2" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -531,51 +531,105 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.aguia_de_ouro" version="1.1.1" name="[COLOR red]Águia [COLOR black]de [COLOR gold]Ouro[/COLOR]" provider-name="@Flecha_Negra">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>  
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+    <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Águia de Ouro é um addon de desporto da team ArrowNegra</summary>
+    <description lang="pt">Todos os videos são de sites terceiros, não hospedamos conteudo</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+       <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+     <media>resources/medias/home.jpg</media>
+     <media>resources/medias/movies.jpg</media>
+     <media>resources/medias/series.jpg</media>
+    </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.aguia_real" name="[COLORskyblue]Águia [COLORbrown]Real[/COLOR]" version="1.0.1" provider-name="Flecha Negra"> 
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    </requires>  
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>   
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+  <summary lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia  Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+  <description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+  <description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia  Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+  <disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+  <assets>
+       <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+     <media>resources/medias/home.jpg</media>
+     <media>resources/medias/movies.jpg</media>
+     <media>resources/medias/series.jpg</media>
+    </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="19.24+matrix3" provider-name="">
     <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">[COLORred] LIVE-TV, VOD, SÉRIES[/COLOR] KODi Matrix KODi Nexus</summary>
-		<description lang="en">[COLOR red]Águia[/COLOR] [COLORorange]Branca[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.25.1+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLORred] LIVE-TV, VOD, SÉRIES[/COLOR] KODi Matrix KODi Nexus</summary>
+    <description lang="en">[COLOR red]Águia[/COLOR] [COLORorange]Branca[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
        <screenshot>resources/screenshots/1.jpg</screenshot>
        <screenshot>resources/screenshots/2.jpg</screenshot>
        <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
-	</extension>
+  </extension>
 </addon>
 
 <addon id="plugin.video.aguianegra" name="[COLOR red]Águia[/COLOR] [COLOR yellow]Negra[/COLOR]" version="3.3.0" provider-name="ArrowNegra">
-	<requires>
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" optional="true"/>
-		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
+  <requires>
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.requests" optional="true"/>
+    <import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.dateutil" optional="true" />
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.cloudscraper" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
     </extension>
 
-	<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description>
+  <extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description>
 
 
 AVISO LEGAL:
@@ -585,17 +639,17 @@ Todo o conteudo encuentra-se livremente na internet.
 Não se aceita nenhuma responsabilidade pelo uso deste addon.
 
 ¡Enjoyyyy!
-		</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/1.jpg</screenshot>
-			<screenshot>resources/screenshots/2.jpg</screenshot>
-			<screenshot>resources/screenshots/3.jpg</screenshot>
-		</assets>
-		<news></news>
-	</extension>
+    </description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/1.jpg</screenshot>
+      <screenshot>resources/screenshots/2.jpg</screenshot>
+      <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+    <news></news>
+  </extension>
 </addon>
 
 <addon id="plugin.video.aguiavavoo"
@@ -614,104 +668,50 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
  <description lang="en">[COLOR silver]Águia[COLOR dimgrey] Vavoo[/COLOR] [COLORorange]é um addon da familia  ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <disclaimer lang="en_GB">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content.</disclaimer>
   <assets>
-	<icon>icon.png</icon>
-	<fanart>fanart.jpg</fanart>
+  <icon>icon.png</icon>
+  <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
 </addon>
 
-<addon id="plugin.video.aguia_de_ouro" version="1.1.1" name="[COLOR red]Águia [COLOR black]de [COLOR gold]Ouro[/COLOR]" provider-name="@Flecha_Negra">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="pt">Águia de Ouro é um addon de desporto da team ArrowNegra</summary>
-		<description lang="pt">Todos os videos são de sites terceiros, não hospedamos conteudo</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-       <icon>icon.png</icon>
-	   <fanart>fanart.jpg</fanart>
-	   <media>resources/medias/home.jpg</media>
-	   <media>resources/medias/movies.jpg</media>
-	   <media>resources/medias/series.jpg</media>
-    </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.aguia_real" name="[COLORskyblue]Águia [COLORbrown]Real[/COLOR]" version="1.0.1" provider-name="Flecha Negra">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-<extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-	<summary lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia  Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia  Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-	   <fanart>fanart.jpg</fanart>
-	   <media>resources/medias/home.jpg</media>
-	   <media>resources/medias/movies.jpg</media>
-	   <media>resources/medias/series.jpg</media>
-    </assets>
-</extension>
-</addon>
-
 <addon id="plugin.video.arrow.lsp" name="ArrowLSP" version="3.0.0" provider-name="arrownegra">
-	<requires>
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" optional="true"/>
-		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
+  <requires>
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.requests" optional="true"/>
+    <import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.dateutil" optional="true" />
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.cloudscraper" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
 
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description>
-
-		</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    
+    </description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.arrownegra.play.tv" name="[COLORgrey]ArrowNegra[/COLOR] [COLORred]Play[/COLOR] [COLORcyan]Tv[/COLOR]" version="1.9.0.1" provider-name="by Flecha Negra">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
 <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
@@ -721,20 +721,65 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 <language>en</language>
 <license>GPL-2.0-or-later</license>
 <forum/>
-		<email></email>
-		<source></source>
-		<news></news>
-		<disclaimer lang="en">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<banner></banner>
-			<clearlogo></clearlogo>
-			<screenshot></screenshot>
-		</assets>
-	</extension>
+    <email></email>
+    <source></source>
+    <news></news>
+    <disclaimer lang="en">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <banner></banner>
+      <clearlogo></clearlogo>
+      <screenshot></screenshot>
+    </assets>
+  </extension>
 </addon>
 
+<addon id="plugin.video.Black_Truck" name="[COLOR red]Black [COLORorange]Truck[/COLOR]" version="1.1.0" provider-name="Flechanegra">
+   <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    </requires>  
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>  
+<extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.2.4+matrix.1" provider-name="Flechanegra"> 
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    </requires>  
+       <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+<extension point="xbmc.addon.metadata">
+        <summary>Canais de Filmes, Series e mais...</summary>
+        <description lang="en">[COLOR silver]blackarrow [COLORred]1click [COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+        <platform>all</platform>
+        <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+    </extension>
+</addon>
 <addon id="plugin.video.blackarrow18" name="[COLORlime]black[/COLOR] [COLORmaroon]arrow18[/COLOR]" version="1.1.5" provider-name="@by_arrow_negra">
     <requires>
         <import addon="script.module.simplejson" />
@@ -749,29 +794,6 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 		<description lang="en">[COLOR red]black[/COLOR] [COLORorange]arrow18[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
 		<platform>all</platform>
 		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.2.4+matrix.1" provider-name="Flechanegra">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-       <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-<extension point="xbmc.addon.metadata">
-        <summary>Canais de Filmes, Series e mais...</summary>
-        <description lang="en">[COLOR silver]blackarrow [COLORred]1click [COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-        <platform>all</platform>
-        <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
        <screenshot>resources/screenshots/1.jpg</screenshot>
@@ -800,29 +822,6 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
         <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon>
-
-<addon id="plugin.video.Black_Truck" name="[COLOR red]Black [COLORorange]Truck[/COLOR]" version="1.1.0" provider-name="Flechanegra">
-   <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-</extension>
 </addon>
 
 <addon id="plugin.video.duffyou" name="Duff You" version="0.1.3" provider-name="La Taberna">
@@ -938,48 +937,22 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.2.4" provider-name="by_flecha_negra">
-
-  <requires>
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>
-		<import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-
-     </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]mac[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.gif</icon>
-       <fanart>fanart.png</fanart>
-
-    </assets>
-		<language>pt</language>
-	</extension>
-
-</addon>
-
 <addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="1.1" provider-name="by_flecha_negra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-	<import addon="script.module.requests" />
-	<import addon="script.module.simplejson" />
+  <import addon="script.module.requests" />
+  <import addon="script.module.simplejson" />
     <import addon="script.module.six" />
     <import addon="script.module.kodi-six" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-	</extension>
+  </extension>  
 <extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]portal[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]portal[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
        <screenshot>resources/screenshots/1.jpg</screenshot>
@@ -987,6 +960,32 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
        <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.2.4" provider-name="by_flecha_negra">
+
+  <requires>        
+      <!--<import addon="script.module.resolveurl" /> -->     
+        <import addon="script.module.requests"/>
+    <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />   
+  
+     </requires>  
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>  
+<extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]mac[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.png</fanart>
+       
+    </assets>       
+    <language>pt</language>
+  </extension>  
+  
 </addon>
 
 <addon id="plugin.video.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.1.7+matrix.1" provider-name="Flechanegra">
@@ -2205,28 +2204,6 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.2.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
-   <requires>
-	<import addon="script.module.six" />
-	<import addon="plugin.video.aguia-branca" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-     <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-    <summary>pach API Aguia_Branca Stalker</summary>
-		<description lang="en">[COLOR red]aguia-branca.api[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-
-	<assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.2.3" provider-name="FlechaNegra">
     <requires>
         <import addon="script.module.six"/>
@@ -2246,6 +2223,28 @@ v1.0.0.matrix.1
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.2.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="plugin.video.aguia-branca" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API Aguia_Branca Stalker</summary>
+    <description lang="en">[COLOR red]aguia-branca.api[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Flechanegra" version="1.9.0">
@@ -2388,6 +2387,7 @@ v1.0.0.matrix.1
         <news>Changed the fanart to be a simple small image that has a matching color tone to the theme chosen.</news>
     </extension>
 </addon>
+
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
 	     version="4.0.7"
