@@ -424,7 +424,7 @@ version="1.0" provider-name="Flechanegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.2.4" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.3.6" provider-name="by_flecha_negra">
 
   <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
