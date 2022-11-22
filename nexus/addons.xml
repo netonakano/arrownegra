@@ -2464,6 +2464,28 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
+<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.3.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="plugin.video.aguia-branca" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API Aguia_Branca Stalker</summary>
+    <description lang="en">[COLOR red]aguia-branca.api[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.requests" name="requests" version="2.25.1+matrix.1" provider-name="Python Software Foundation">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -2537,6 +2559,28 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
+<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
+   <requires>
+  <import addon="script.module.six" />
+  <import addon="pvr.aguia.de.fogo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>Pach API pvr Águia de Fogo</summary>
+    <description lang="en">[COLOR red]pvr.aguia.de.fogo[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.scrubsv2.artwork" version="1.6" name="[COLOR orange]Scrubs v2 Artwork[/COLOR]" provider-name="JewBMX">
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
@@ -2570,6 +2614,29 @@ v1.14.1 (2021-02-25)
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     <assets>
       <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+   <requires>
+  <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+  <import addon="plugin.video.x-codes" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+     <disclaimer lang="en"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <summary>pach API X-Codes</summary>
+    <description lang="en">[COLOR red]plugin.video.x-[/COLOR] [COLORorange]codes[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+  
+  <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
 </addon>
