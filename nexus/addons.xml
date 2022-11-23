@@ -532,7 +532,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="19.24+matrix3" provider-name="">
+<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="20.24+matrix3" provider-name="">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.25.1+matrix.1"/>
@@ -1316,7 +1316,7 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="1.9.5" provider-name="[COLOR red]Arrow[/COLOR][COLORdarkgrey]Negra[/COLOR]">
+<addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="2.0.5" provider-name="[COLOR red]Arrow[/COLOR][COLORdarkgrey]Negra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -2464,7 +2464,7 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.3.1" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+<addon id="script.aguia-branca.api.stalker" name="[COLORorange]Pach API Aguia_Branca Stalker[/COLOR]" version="0.4.4" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
    <requires>
   <import addon="script.module.six" />
   <import addon="plugin.video.aguia-branca" />
@@ -2559,7 +2559,7 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
-<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
+<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.4" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
    <requires>
   <import addon="script.module.six" />
   <import addon="pvr.aguia.de.fogo" />
@@ -2618,7 +2618,7 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
-<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.4.4" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
    <requires>
   <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
