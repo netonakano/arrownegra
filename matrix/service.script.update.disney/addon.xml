@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.script.update.disney" name="Update Service disney" version="1.0" provider-name="flechanegra">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+	       <import addon="script.module.six" />
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login" />
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>de</language>
+        <summary lang="de"> Update Service disney</summary>
+        <description lang="de">Update Service disney</description>
+        <website></website>
+    </extension>
+</addon>
