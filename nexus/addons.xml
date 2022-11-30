@@ -965,7 +965,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 
 </addon>
 
-<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="1.1" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="2.1" provider-name="by_flecha_negra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" />
