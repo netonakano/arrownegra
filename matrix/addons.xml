@@ -2822,7 +2822,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.3.6" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]Fenix [COLORgrey]Mac[/COLOR]" version="0.4.2" provider-name="by_flecha_negra">
 
   <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
@@ -2848,7 +2848,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 
 </addon>
 
-<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="1.1" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="2.1" provider-name="by_flecha_negra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.requests" />
@@ -6000,10 +6000,10 @@ Use this if you are experiencing streaming issues and you suspect your network t
 	</extension>
 </addon>
 
-<addon id="service.script.update.disney" name="Update Service disney" version="1.0" provider-name="flechanegra">
+<addon id="service.script.update.disney" name="Update Service disney" version="1.2" provider-name="flechanegra">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-         <import addon="script.module.six" />
+	       <import addon="script.module.six" />
         <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login" />
@@ -6012,9 +6012,13 @@ Use this if you are experiencing streaming issues and you suspect your network t
         <platform>all</platform>
         <language>de</language>
         <summary lang="de"> Update Service disney</summary>
-        <description lang="de">Update Service disney</description>
-        <website></website>
-    </extension>
+        <description lang="en">[COLOR red]Update Service[/COLOR] [COLORorange]disney[/COLOR] [COLORorange]é um script da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+</extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles"
