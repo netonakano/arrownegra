@@ -5946,7 +5946,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
         <news>Changed the fanart to be a simple small image that has a matching color tone to the theme chosen.</news>
     </extension>
 </addon>
-<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.3.4" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
+<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.4.9" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
    <requires>
 	<import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
